@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Abaixo_Linha" xml:space="preserve">
+    <value>Abaixo da Linha</value>
+  </data>
+  <data name="Acima_Linha" xml:space="preserve">
+    <value>Acima da Linha</value>
+  </data>
+  <data name="Adicionar_Linha_Abaixo" xml:space="preserve">
+    <value>Adicionar linha abaixo</value>
+  </data>
+  <data name="Adicionar_Linha_Acima" xml:space="preserve">
+    <value>Adicionar linha acima</value>
+  </data>
+  <data name="alerta_aviso" xml:space="preserve">
+    <value>Aviso(s)</value>
+  </data>
+  <data name="alerta_erro" xml:space="preserve">
+    <value>Erro(s)</value>
+  </data>
+  <data name="alerta_info" xml:space="preserve">
+    <value>Informação</value>
+  </data>
+  <data name="alerta_questao" xml:space="preserve">
+    <value>Confirmação</value>
+  </data>
+  <data name="anexo_a_enviar" xml:space="preserve">
+    <value>A Enviar...</value>
+  </data>
+  <data name="aplicar_a_todas" xml:space="preserve">
+    <value>Aplicar a todas</value>
+  </data>
+  <data name="armazens_localizacao_existente" xml:space="preserve">
+    <value>Já existe uma localização com o código {0}</value>
+  </data>
+  <data name="artigos_armazem_existente" xml:space="preserve">
+    <value>O armazém "{0}" já está definido no artigo.</value>
+  </data>
+  <data name="AteDia" xml:space="preserve">
+    <value>Até ao dia</value>
+  </data>
+  <data name="campos_em_falta" xml:space="preserve">
+    <value>Campos em Falta</value>
+  </data>
+  <data name="campos_invalidos" xml:space="preserve">
+    <value>{0} é inválido</value>
+  </data>
+  <data name="campos_obrigatorios" xml:space="preserve">
+    <value>{0} é obrigatório</value>
+  </data>
+  <data name="campos_preenchidos" xml:space="preserve">
+    <value>Campos Preenchidos</value>
+  </data>
+  <data name="campo_modulos_atual" xml:space="preserve">
+    <value>Fechar Tabs - Atual</value>
+  </data>
+  <data name="campo_modulos_todos" xml:space="preserve">
+    <value>Fechar Tabs - Todos</value>
+  </data>
+  <data name="campo_modulos_todos_menos_este" xml:space="preserve">
+    <value>Fechar Tabs - Todos menos este</value>
+  </data>
+  <data name="campo_modulos_tudo_menos_opcao" xml:space="preserve">
+    <value>Tudo menos a opção</value>
+  </data>
+  <data name="confirmacao_adicao_alteracao" xml:space="preserve">
+    <value>Esta pagina está em Adição/Alteração.</value>
+  </data>
+  <data name="confirmacao_adicao_alteracao_pagina" xml:space="preserve">
+    <value>Esta pagina está em Adição/Alteração, pretende fechá-la?</value>
+  </data>
+  <data name="confirmacao_adicao_edicao" xml:space="preserve">
+    <value>Existem paginas em Adição/Alteração.</value>
+  </data>
+  <data name="confirmacao_adicao_edicao_cancelar" xml:space="preserve">
+    <value>Esta página está em Adição/Alteração, pretende cancelar as alterações efetuadas?</value>
+  </data>
+  <data name="confirmacao_cancelar_alteracoes" xml:space="preserve">
+    <value>Pretende cancelar as alterações efetuadas?</value>
+  </data>
+  <data name="confirmacao_fecho_op" xml:space="preserve">
+    <value>Tem a certeza que deseja fechar a opção?</value>
+  </data>
+  <data name="confirmacao_logout" xml:space="preserve">
+    <value>Tem a certeza que deseja terminar a sessão?</value>
+  </data>
+  <data name="confirmacao_marcarvista" xml:space="preserve">
+    <value>Tem a certeza que deseja marcar por defeito a lista personalizada {0}?</value>
+  </data>
+  <data name="confirmacao_modulo_excepto_atual" xml:space="preserve">
+    <value>Pretende fechar todas as opções excepto a atual? </value>
+  </data>
+  <data name="confirmacao_modulo_excepto_outros" xml:space="preserve">
+    <value>Pretende fechar a opção atual excepto as outras?</value>
+  </data>
+  <data name="confirmacao_modulo_fecha_todos" xml:space="preserve">
+    <value>Pretende fechar todas as opções?</value>
+  </data>
+  <data name="confirmacao_modulo_tab_opcao_atual" xml:space="preserve">
+    <value>Pretende fechar todas as opções e deixar a opção atual?</value>
+  </data>
+  <data name="confirmacao_remover" xml:space="preserve">
+    <value>Tem a certeza que deseja remover {0}?</value>
+  </data>
+  <data name="confirmacao_removevista" xml:space="preserve">
+    <value>Tem a certeza que deseja remover a lista personalizada {0}?</value>
+  </data>
+  <data name="confirmacao_sair" xml:space="preserve">
+    <value>Tem alterações pendentes! Deseja continuar e perder a informação?</value>
+  </data>
+  <data name="DesselecionarLinhasTodas" xml:space="preserve">
+    <value>Desselecionar as linhas todas</value>
+  </data>
+  <data name="detalhes_anexo" xml:space="preserve">
+    <value>Detalhes do Anexo "{0}"</value>
+  </data>
+  <data name="deve_guardar_alteracoes" xml:space="preserve">
+    <value>Existem alterações pendentes no artigo! Pretende guardar?</value>
+  </data>
+  <data name="empresas_alterarempresa" xml:space="preserve">
+    <value>Alterar empresa</value>
+  </data>
+  <data name="empresas_avisoalterarempresa" xml:space="preserve">
+    <value>Atenção! Antes de prosseguir deve assegurar-se que tem todas as opções fechadas e todas as janelas do navegador com a aplicação aberta fechadas! Caso deseje continuar todas as opções serão fechadas, porém as janelas devem ser fechadas manualmente!</value>
+  </data>
+  <data name="empresas_titulomudaempresa" xml:space="preserve">
+    <value>Carrregar outra empresa</value>
+  </data>
+  <data name="erro_celula_invalida" xml:space="preserve">
+    <value>O valor inserido é inválido.</value>
+  </data>
+  <data name="erro_nao_existem_areas" xml:space="preserve">
+    <value>Não existem áreas definidas para esta empresa.</value>
+  </data>
+  <data name="erro_ocorrencia" xml:space="preserve">
+    <value>{0} &amp;lt</value>
+  </data>
+  <data name="erro_selecione_empresa" xml:space="preserve">
+    <value>Selecione uma empresa.</value>
+  </data>
+  <data name="este_anexo" xml:space="preserve">
+    <value>este anexo</value>
+  </data>
+  <data name="existem_campos_invalidos_nas_grelhas" xml:space="preserve">
+    <value>Existem campos inválidos nas grelhas.</value>
+  </data>
+  <data name="favorito_remover" xml:space="preserve">
+    <value>Apagar favorito</value>
+  </data>
+  <data name="favorito_renomeado" xml:space="preserve">
+    <value>Favorito renomeado!</value>
+  </data>
+  <data name="ficheiro_anexado_sucesso" xml:space="preserve">
+    <value>Ficheiro anexado com sucesso!</value>
+  </data>
+  <data name="FinalMes" xml:space="preserve">
+    <value>Final do mês</value>
+  </data>
+  <data name="foto_extensoes_permitidas" xml:space="preserve">
+    <value>Apenas são permitidas as extensões .jpg, .png, .gif.</value>
+  </data>
+  <data name="foto_tamanho_permitido" xml:space="preserve">
+    <value>Não é permitido mais que 100 KB</value>
+  </data>
+  <data name="grelha_sem_registos" xml:space="preserve">
+    <value>Não existem registos para apresentar</value>
+  </data>
+  <data name="grelha_sem_registo_selecionado" xml:space="preserve">
+    <value>Não existe um registo selecionado</value>
+  </data>
+  <data name="guarda_estado" xml:space="preserve">
+    <value>Guarda estado</value>
+  </data>
+  <data name="idioma_existente" xml:space="preserve">
+    <value>O idioma com código {0} já está definido para este tipo de documento.</value>
+  </data>
+  <data name="iva_regiao_existente" xml:space="preserve">
+    <value>A Regiao {0} já está definida para este iva.</value>
+  </data>
+  <data name="janelaAutenticacao" xml:space="preserve">
+    <value>AUTENTICAÇÃO</value>
+  </data>
+  <data name="msg_opcoes_gravar_continuar" xml:space="preserve">
+    <value>Atenção! Existem alterações pendentes. Pretende continuar e gravar as mesmas?</value>
+  </data>
+  <data name="nao" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="nao_existem_anexos" xml:space="preserve">
+    <value>Não existem ficheiros selecionados/arrastados...</value>
+  </data>
+  <data name="notificacao_grelha_add" xml:space="preserve">
+    <value>Adicionado com sucesso.</value>
+  </data>
+  <data name="notificacao_grelha_rav" xml:space="preserve">
+    <value>Atualizado com sucesso.</value>
+  </data>
+  <data name="notificacao_grelha_rem" xml:space="preserve">
+    <value>Removido com sucesso.</value>
+  </data>
+  <data name="problemas_encontrados" xml:space="preserve">
+    <value>Problemas</value>
+  </data>
+  <data name="QuantidadeTotal" xml:space="preserve">
+    <value>Quantidade Total</value>
+  </data>
+  <data name="removerLinha" xml:space="preserve">
+    <value>Tem a certeza que deseja remover esta linha?</value>
+  </data>
+  <data name="Remover_Linha" xml:space="preserve">
+    <value>Remover esta linha?</value>
+  </data>
+  <data name="resultado_pesquisa" xml:space="preserve">
+    <value>Resultados da Pesquisa</value>
+  </data>
+  <data name="SelecionarLinhasTodas" xml:space="preserve">
+    <value>Selecionar as linhas todas</value>
+  </data>
+  <data name="selecionar_listagem" xml:space="preserve">
+    <value>Selecionar uma listagem</value>
+  </data>
+  <data name="selecione_um_item" xml:space="preserve">
+    <value>Selecionar</value>
+  </data>
+  <data name="sem_empresa" xml:space="preserve">
+    <value>Sem empresa</value>
+  </data>
+  <data name="serie_existente" xml:space="preserve">
+    <value>A série com código {0} já está definida para este tipo de documento.</value>
+  </data>
+  <data name="sim" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="splitter_colapsar_direita" xml:space="preserve">
+    <value>Clique para colapsar barra para a Direita</value>
+  </data>
+  <data name="splitter_colapsar_esquerda" xml:space="preserve">
+    <value>Clique para colapsar barra para a Esquerda</value>
+  </data>
+  <data name="TempoTotal" xml:space="preserve">
+    <value>Tempo Total</value>
+  </data>
+  <data name="tem_que_selecionar_uma_linha" xml:space="preserve">
+    <value>Tem que selecionar pelo menos 1 linha!</value>
+  </data>
+  <data name="tem_que_ter_quantidade" xml:space="preserve">
+    <value>Tem que ter no mínimo, uma linha com quantidade diferente de 0!</value>
+  </data>
+  <data name="todos" xml:space="preserve">
+    <value>Todos</value>
+  </data>
+  <data name="ValidaNIF" xml:space="preserve">
+    <value>O nº contribuinte indicado é inválido.</value>
+  </data>
+  <data name="ValidaSerie" xml:space="preserve">
+    <value>O código da série do tipo de documento deve ser alfanumérico.</value>
+  </data>
+</root>

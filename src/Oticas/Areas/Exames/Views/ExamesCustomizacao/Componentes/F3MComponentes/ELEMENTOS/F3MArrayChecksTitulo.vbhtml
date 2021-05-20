@@ -1,0 +1,1 @@
+﻿<div class="arrayChecks-titulo">@Model.Label</div>

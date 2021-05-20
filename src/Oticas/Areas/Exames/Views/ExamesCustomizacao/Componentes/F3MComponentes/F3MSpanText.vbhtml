@@ -1,0 +1,1 @@
+﻿<span class="@Model.ViewClassesCSS">@Model.Label</span>

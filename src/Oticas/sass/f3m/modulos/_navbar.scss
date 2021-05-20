@@ -1,0 +1,178 @@
+@import "../../compass/css3";
+@import "../../compass/typography/text/ellipsis";
+@import "../base/config";
+
+// barra superior branca, mudar css para ter outras colorbox-lines
+.navbar-default {
+    background-color: $navbar-bg;
+    border-color: $navbar-border-color;
+}
+.navbar.navbar-default:before { // riscas cores F3m topo do site
+    content: " ";
+    height: 2px;
+    width: 100%;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABaAAAAABCAIAAACnup5zAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo0RjQ2OUU5OTEyNUVFNTExOUMzNkRDOTc4NTE1NkU4NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDowQjhCMUFBMTYwMzkxMUU1QjA2OURFM0NCMTgxMjVBOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDowQjhCMUFBMDYwMzkxMUU1QjA2OURFM0NCMTgxMjVBOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkQ3RUI1NTAzMzk2MEU1MTFCQzBERTFFMTg3MDEzQzVDIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjRGNDY5RTk5MTI1RUU1MTE5QzM2REM5Nzg1MTU2RTg3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+ALGrKQAAAENJREFUeNpiZJBOZBgFo2DYgNrC0TAYBcMG/P/tPxoIo2DYgPMOkqOBMAqGDehr/zQaCKNgOIFpf5lGA2EUDA8AEGAAqhgIeWjQbEsAAAAASUVORK5CYII=) repeat;
+    background-size: 100% 1px;
+}
+.navbar-brand {
+    height: 35px;
+    //padding: 12px 30px 12px 25px;
+    padding: 8px 30px 8px 25px;
+    border-right: 1px solid $nav-brand-border-r;
+    img {
+        max-height: 38px;
+    }
+}
+.navbar-nav{
+    //padding:10px 0 0 10px;
+    padding: 6px 0 0 10px;
+    &.navbar-atalhos{
+        padding-left:0;
+    }
+}
+.navbar-default .navbar-nav>li>a {
+     @include border-radius($base-border-radius);
+     margin-left: 5px;
+     color: $navbar-link-color;
+}
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:hover, 
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>li>a:hover, 
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>.open>a, 
+.navbar-default .navbar-nav>.open>a:hover, 
+.navbar-default .navbar-nav>.open>a:focus {
+    color: $black20;
+    background-color: $navbar-link-bg;
+}
+.navbar-nav.navbar-atalhos > .active > a{
+    color: $navbar-link-color;
+    background-color: $trans;
+}
+
+.navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 9px;
+    line-height: 20px;
+}
+.navbar-nav > li > .dropdown-menu a {
+    white-space: nowrap; 
+    max-width: 200px; 
+    overflow: hidden;
+    @include ellipsis($no-wrap: true);
+}
+.navbar-nav > li > .badge {
+    position: absolute;
+    top: 1px;
+    right: 2px;
+    font-size: $base-font-size - 5px;
+    background-color: $navbar-badge-bg;
+    padding: 3px 3px;
+    color: $navbar-badge-color;
+}
+.navbar-nav > li > .dropdown-menu {
+    margin-top: -2px;
+    border: 1px solid $GrayE7;
+    min-width: 240px; 
+}
+.empresa-nav {
+    h6 {
+        padding: 0 20px;
+    }
+    .f3icon-chevron-down{
+        margin-left:10px;
+    }
+}
+.navbar-nav > .user-area > a {
+     padding:10px 10px
+}
+.navbar-nav > .user-area > a > img {
+    width: 26px;
+    height: 26px;
+    margin-top: -8px;
+    position: relative;
+    top: 2px;
+    @include border-radius($base-border-radius);
+}
+.navbar-toggle {
+    margin-top: 12px;
+}
+.navbar-default .navbar-toggle {
+    border-color: $navbar-toggle-border-color;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: $navbar-toggle-iconbar;
+}
+.navbar-default .navbar-toggle:hover, 
+.navbar-default .navbar-toggle:focus {
+    background-color: $navbar-link-bg;
+}
+// botao que mostra o menu inicial
+.but-menu-ini{
+    margin:0;
+}
+.product-area { 
+    width: 75px;
+    position: relative;
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+.product-name { 
+    position: absolute;
+    line-height: 1.1;
+    height: 38px;
+    display: table;
+    top: -29px;
+    left: 10px;
+    span {
+        display: table-cell; 
+        vertical-align: middle; 
+    }
+}
+
+
+@media (min-width: 767px){
+    .navbar-right {
+        margin-right: 0;
+    }
+}
+// media queries para manter o conteudo do header da mesma forma quando se aplica a nav-colapse
+@media (max-width: 767px){
+    .navbar-nav.navbar-atalhos{
+        float:left !important;
+        padding-top:0;
+    }
+    .navbar-nav > li {
+        float: left;
+        display: inline-block;
+    }
+    .navbar-right li{
+        width: 100%;
+    }
+    .navbar-nav.navbar-right{
+        padding: 0;
+    }
+    .navbar-default .navbar-nav.navbar-right > li{
+        padding-bottom: 8px;
+    }
+    .navbar-default .navbar-nav.navbar-right > li:first-child{
+        border-top: 1px solid $navbar-border-color;
+    }
+    .navbar-default .navbar-nav.navbar-right > li > a{
+        border-radius: 0;
+        margin-left: 0;
+        padding-left: 22px;
+    }
+    .navbar-nav > li > .badge {
+        left: 44px;
+        right: inherit;
+        top: 8px;
+        font-size: 14px;
+        padding: 3px 7px;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: $navbar-link-color;
+    }
+}

@@ -1,0 +1,105 @@
+@import "../base/config";
+
+#menuinicial{
+    width: 290px;
+    background-color: $menu-inicial-bg;
+    position: fixed;
+    //top: 62px;
+    top: 54px;
+    bottom: 0;
+    left: 0;
+    z-index: 1001;
+    display: block;
+    border-right: 1px solid $GrayE7;
+    font-size: $base-font-size - 2px;
+    .fm{
+        font-size: $base-font-size!important;
+    }
+    .nav-tabs .fm{
+        position:relative;
+        top:2px;
+    }
+    .nav>li.active>a{
+        background-color: $white;     
+   }
+
+}
+.pesquisa-holder {
+    padding: 15px 15px 20px 15px;
+    .glyphicon{
+        opacity:.5;
+    }
+}
+#menuinicial .menu-holder {
+    padding: 0 15px;
+}
+.menu-holder .nav>li>a {
+    padding: 11px 15px;
+    background: rgba(255,255,255,.8);
+    z-index:1;
+}
+#menuinicial div.k-treeview {
+    white-space: normal;
+    overflow: hidden;
+}
+#menuinicial .k-state-focused {
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.menu-navega, .menu-favs{
+    padding: 10px;
+    border-width: 0 1px 1px 1px;
+    border-color: $GrayDD;
+    border-style: solid;
+    position: absolute;
+    overflow-y: auto;
+    top: 110px;
+    bottom: 0;
+    width: 238px;
+    background-color: $white;
+}
+
+.menu-favs .lifav{
+    margin-top: 5px;
+    padding: 0 10px;
+    &:first-child{
+      margin-top: 10px;
+    }
+    a label {
+        cursor: pointer;
+    }
+    .fm{
+        width: 28px;
+        float: left;
+    }
+    .fm.f3icon-close-2{
+        float: none;
+    }
+}
+div.pesquisaMenu {
+    height: 100%;
+    position: relative;
+    display: none;
+    overflow: auto;
+}
+div.pesquisaMenu h5{
+    border-top: 1px solid $GrayCC;
+    padding-top: 15px;
+    margin-bottom: 12px;
+    font-weight: bold;
+    &:first-child{
+        border-top:0;
+        padding-top:0;
+    }
+}
+div.pesquisaMenu .fm {
+    width: 28px;
+    float: left;
+}
+.iconsaccao{
+    float:right;
+}
+.menu-pesquisa li{
+    margin-bottom:4px;
+}

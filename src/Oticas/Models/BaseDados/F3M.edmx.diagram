@@ -1,0 +1,1045 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="08aaf4495c11434893da54909ae97713" Name="Diagram1">
+        <EntityTypeShape EntityType="F3MEntities.tbAgendamento" Width="1.5" PointX="3" PointY="343.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbArmazens" Width="1.5" PointX="6" PointY="344.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbArmazensLocalizacoes" Width="1.5" PointX="8.25" PointY="359.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbAros" Width="1.5" PointX="32.75" PointY="319.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbArtigos" Width="1.5" PointX="27.5" PointY="307.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbArtigosAlternativos" Width="1.5" PointX="32.75" PointY="312.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbArtigosAnexos" Width="1.5" PointX="29.75" PointY="310.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbArtigosArmazensLocalizacoes" Width="1.5" PointX="16.5" PointY="353" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbArtigosAssociados" Width="1.5" PointX="38.75" PointY="318.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbArtigosComponentes" Width="1.5" PointX="38.75" PointY="311.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbArtigosDadosFinanceiros" Width="1.5" PointX="29.75" PointY="316" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbArtigosDadosFinanceirosPVsUPCPerc" Width="1.5" PointX="29.75" PointY="373.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbArtigosDimensoes" Width="1.5" PointX="41.75" PointY="303.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbArtigosDimensoesEmpresa" Width="1.5" PointX="44" PointY="303" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbArtigosEspecificos" Width="1.5" PointX="35.75" PointY="309.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbArtigosFornecedores" Width="1.5" PointX="44.75" PointY="323.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbArtigosIdiomas" Width="1.5" PointX="32.75" PointY="307.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbArtigosImpostoSelo" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbArtigosLotes" Width="1.5" PointX="29.75" PointY="383.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbArtigosNumerosSeries" Width="1.5" PointX="29.75" PointY="389.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbArtigosPrecos" Width="1.5" PointX="9" PointY="345.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbArtigosStock" Width="1.5" PointX="29.75" PointY="394.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbArtigosUnidades" Width="1.5" PointX="38.75" PointY="306.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbATEstadoComunicacao" Width="1.5" PointX="24.5" PointY="324.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbATEstadoComunicacaoLinhas" Width="1.5" PointX="26.75" PointY="302.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbBancos" Width="1.5" PointX="3" PointY="351" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbBancosContatos" Width="1.5" PointX="5.25" PointY="353" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbBancosMoradas" Width="1.5" PointX="8.25" PointY="352.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbCampanhas" Width="1.5" PointX="39.5" PointY="375.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbCCEntidades" Width="1.5" PointX="10.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbCCFornecedores" Width="1.5" PointX="12.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbCCStockArtigos" Width="1.5" PointX="19.5" PointY="347.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbClientes" Width="1.5" PointX="14" PointY="338" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbClientesAnexos" Width="1.5" PointX="19.25" PointY="341.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbClientesContatos" Width="1.5" PointX="19.25" PointY="334.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbClientesLojas" Width="1.5" PointX="25.25" PointY="335.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbClientesMoradas" Width="1.5" PointX="28.25" PointY="345.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbCodigosPostais" Width="1.5" PointX="14" PointY="312.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbComposicoes" Width="1.5" PointX="25.25" PointY="264.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbComposicoesIdiomas" Width="1.5" PointX="27.5" PointY="289.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbComunicacao" Width="1.5" PointX="5.25" PointY="26.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbComunicacaoApis" Width="1.5" PointX="5.25" PointY="32.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbComunicacaoAutoridadeTributaria" Width="1.5" PointX="9" PointY="279.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbComunicacaoAutoridadeTributariaAnexos" Width="1.5" PointX="11.25" PointY="285.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbComunicacaoAutoridadeTributariaLinhas" Width="1.5" PointX="29.75" PointY="303.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbComunicacaoregistro" Width="1.5" PointX="9.75" PointY="21.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbComunicacaoSmsTemplates" Width="1.5" PointX="7.5" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbComunicacaoSmsTemplatesGrupos" Width="1.5" PointX="9.75" PointY="26.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbComunicacaoSmsTemplatesRegras" Width="1.5" PointX="12" PointY="26.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbComunicacaoSmsTemplatesValores" Width="1.5" PointX="14.25" PointY="27.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbConcelhos" Width="1.5" PointX="11.75" PointY="312.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbCondicionantes" Width="1.5" PointX="13.5" PointY="326.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbCondicoesPagamento" Width="1.5" PointX="6.75" PointY="301.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbCondicoesPagamentoDescontos" Width="1.5" PointX="9" PointY="369.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbCondicoesPagamentoIdiomas" Width="1.5" PointX="9" PointY="307" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbConsentimentos" Width="1.5" PointX="5.25" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbContabilidadeConfiguracao" Width="1.5" PointX="10.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbContabilidadeConfiguracaoLinhas" Width="1.5" PointX="13" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbContabilidadeConfiguracaoModulos" Width="1.5" PointX="14.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbContabilidadeConfiguracaoTipos" Width="1.5" PointX="9.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbContabilidadeConfiguracaoValores" Width="1.5" PointX="14.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbContabilidadeExportacao" Width="1.5" PointX="14.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbContasBancarias" Width="1.5" PointX="11.25" PointY="347.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbContasBancariasContatos" Width="1.5" PointX="16.5" PointY="331.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbContasBancariasMoradas" Width="1.5" PointX="19.5" PointY="364.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbContasCaixa" Width="1.5" PointX="3" PointY="379.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbCoresLentes" Width="1.5" PointX="42.5" PointY="295.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbDimensoes" Width="1.5" PointX="25.25" PointY="268.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbDimensoesLinhas" Width="1.5" PointX="39.5" PointY="298.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbDistritos" Width="1.5" PointX="9.5" PointY="312.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbDocumentosCompras" Width="1.5" PointX="52.75" PointY="324.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbDocumentosComprasAnexos" Width="1.5" PointX="55" PointY="337.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbDocumentosComprasLinhas" Width="1.5" PointX="22.5" PointY="339.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbDocumentosComprasLinhasDimensoes" Width="1.5" PointX="35.75" PointY="348" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbDocumentosComprasPendentes" Width="1.5" PointX="58" PointY="338.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbDocumentosStock" Width="1.5" PointX="31.25" PointY="332.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbDocumentosStockAnexos" Width="1.5" PointX="44.5" PointY="357.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbDocumentosStockContagem" Width="1.5" PointX="16.5" PointY="358.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbDocumentosStockContagemAnexos" Width="1.5" PointX="24.75" PointY="370.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbDocumentosStockContagemLinhas" Width="1.5" PointX="30.75" PointY="365.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbDocumentosStockLinhas" Width="1.5" PointX="25.5" PointY="340.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbDocumentosStockLinhasDimensoes" Width="1.5" PointX="38.75" PointY="348.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbDocumentosVendas" Width="1.5" PointX="33.5" PointY="327.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbDocumentosVendasAnexos" Width="1.5" PointX="38.75" PointY="342.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbDocumentosVendasFormasPagamento" Width="1.5" PointX="46.75" PointY="345.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbDocumentosVendasLinhas" Width="1.5" PointX="41.75" PointY="329.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbDocumentosVendasLinhasDimensoes" Width="1.5" PointX="55" PointY="342.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbDocumentosVendasLinhasGraduacoes" Width="1.5" PointX="41" PointY="364.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbDocumentosVendasPendentes" Width="1.5" PointX="46.75" PointY="337.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbEntidades" Width="1.5" PointX="28.25" PointY="336.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbEntidadesAnexos" Width="1.5" PointX="39.5" PointY="325.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbEntidadesComparticipacoes" Width="1.5" PointX="44.5" PointY="337.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbEntidadesContatos" Width="1.5" PointX="44.5" PointY="344.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbEntidadesLojas" Width="1.5" PointX="44.5" PointY="351.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbEntidadesMoradas" Width="1.5" PointX="42.5" PointY="322.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbEscaloes" Width="1.5" PointX="42.5" PointY="283.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbEscaloesEspecificos" Width="1.5" PointX="44.75" PointY="317.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbEscaloesGerais" Width="1.5" PointX="44.75" PointY="281.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbEscaloesPenalizacoes" Width="1.5" PointX="44.75" PointY="276.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbEspecialidades" Width="1.5" PointX="10.5" PointY="382.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbEstacoes" Width="1.5" PointX="25.25" PointY="273" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbEstados" Width="1.5" PointX="20" PointY="317.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbExames" Width="1.5" PointX="16.25" PointY="388.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbExamesAnexos" Width="1.5" PointX="21.5" PointY="389.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbExamesProps" Width="1.5" PointX="18.5" PointY="393.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbExamesPropsFotos" Width="1.5" PointX="18.5" PointY="389.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbExamesTemplate" Width="1.5" PointX="5.25" PointY="437.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbF3MRecalculo" Width="1.5" PointX="11.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbFamilias" Width="1.5" PointX="25.25" PointY="277.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbFormasExpedicao" Width="1.5" PointX="11.75" PointY="307.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbFormasExpedicaoIdiomas" Width="1.5" PointX="17" PointY="311" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbFormasPagamento" Width="1.5" PointX="6.75" PointY="307.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbFormasPagamentoIdiomas" Width="1.5" PointX="14" PointY="307.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbFornecedores" Width="1.5" PointX="9" PointY="330.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbFornecedoresAnexos" Width="1.5" PointX="11.25" PointY="335.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbFornecedoresContatos" Width="1.5" PointX="14.25" PointY="331.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbFornecedoresMoradas" Width="1.5" PointX="16.25" PointY="338.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbFornecedoresTiposFornecimento" Width="1.5" PointX="11.25" PointY="330.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbGamasLentes" Width="1.5" PointX="44.75" PointY="289" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbGruposArtigo" Width="1.5" PointX="25.25" PointY="281.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbIdiomas" Width="1.5" PointX="6.75" PointY="313.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbImpostoSelo" Width="1.5" PointX="25.25" PointY="285.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbIVA" Width="1.5" PointX="25.25" PointY="307.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbIVADescontos" Width="1.5" PointX="27.5" PointY="285" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbIVARegioes" Width="1.5" PointX="43.5" PointY="364.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbLentesContato" Width="1.5" PointX="35.75" PointY="304.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbLentesOftalmicas" Width="1.5" PointX="44.75" PointY="311.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbLentesOftalmicasSuplementos" Width="1.5" PointX="47" PointY="312.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbLojas" Width="1.5" PointX="0.75" PointY="342.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbMapaCaixa" Width="1.5" PointX="5.25" PointY="378.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbMapasVistas" Width="1.5" PointX="6" PointY="335.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbMarcas" Width="1.5" PointX="25.25" PointY="291.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbMedicosTecnicos" Width="1.5" PointX="10.5" PointY="388.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbMedicosTecnicosAnexos" Width="1.5" PointX="12.75" PointY="391.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbMedicosTecnicosContatos" Width="1.5" PointX="15.75" PointY="395.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbMedicosTecnicosEspecialidades" Width="1.5" PointX="12.75" PointY="386.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbMedicosTecnicosMoradas" Width="1.5" PointX="12.75" PointY="396.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbMensagemregistro" Width="1.5" PointX="7.5" PointY="26.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbModelos" Width="1.5" PointX="33.5" PointY="291.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbMoedas" Width="1.5" PointX="6.75" PointY="319.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbNewFeatureNotifications" Width="1.5" PointX="15.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbOculosSol" Width="1.5" PointX="44.75" PointY="306.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbPagamentosCompras" Width="1.5" PointX="36.5" PointY="314.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbPagamentosComprasAnexos" Width="1.5" PointX="47.75" PointY="328.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbPagamentosComprasFormasPagamento" Width="1.5" PointX="47.75" PointY="321.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbPagamentosComprasLinhas" Width="1.5" PointX="58" PointY="327.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbPagamentosVendas" Width="1.5" PointX="5.25" PointY="360.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbPagamentosVendasFormasPagamento" Width="1.5" PointX="10.5" PointY="363.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbPagamentosVendasLinhas" Width="1.5" PointX="49.75" PointY="339.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbPaises" Width="1.5" PointX="6.75" PointY="292" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbParametrizacaoConsentimentos" Width="1.5" PointX="3" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbParametrizacaoConsentimentosCamposEntidade" Width="1.5" PointX="8.25" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbParametrizacaoConsentimentosPerguntas" Width="1.5" PointX="5.25" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbParametrosCamposContexto" Width="1.5" PointX="11.25" PointY="340.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbParametrosContexto" Width="1.5" PointX="3" PointY="336.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbParametrosEmpresa" Width="1.5" PointX="0.75" PointY="333.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbParametrosEmpresaCAE" Width="1.5" PointX="37.25" PointY="299.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbParametrosLoja" Width="1.5" PointX="11" PointY="354.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbParametrosLojaLinhas" Width="1.5" PointX="3" PointY="414.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbParametrosLojaLinhasValores" Width="1.5" PointX="5.25" PointY="415.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbPlaneamento" Width="1.5" PointX="12.75" PointY="369.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbPrecosLentes" Width="1.5" PointX="47.75" PointY="292" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbProfissoes" Width="1.5" PointX="6.75" PointY="330.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbRazoes" Width="1.5" PointX="3" PointY="427.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbRecibos" Width="1.5" PointX="28.25" PointY="352.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbRecibosFormasPagamento" Width="1.5" PointX="38.5" PointY="363.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbRecibosLinhas" Width="1.5" PointX="49.75" PointY="348.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbRecibosLinhasTaxas" Width="1.5" PointX="52" PointY="359.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbRespostasConsentimentos" Width="1.5" PointX="7.5" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSAFT" Width="1.5" PointX="3" PointY="432.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSegmentosMarcas" Width="1.5" PointX="23" PointY="292.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSegmentosMercado" Width="1.5" PointX="11.75" PointY="302.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSegmentosMercadoIdiomas" Width="1.5" PointX="17" PointY="306.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSemafroGereStock" Width="1.5" PointX="16.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbServicos" Width="1.5" PointX="35.75" PointY="363.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbServicosFases" Width="1.5" PointX="38" PointY="370.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSetoresAtividade" Width="1.5" PointX="11.75" PointY="375.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSetoresAtividadeIdiomas" Width="1.5" PointX="16" PointY="327.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaAcoes" Width="1.5" PointX="8.25" PointY="382.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaCamposFormulas" Width="1.5" PointX="16.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaClassificacoesTiposArtigos" Width="1.5" PointX="25.25" PointY="315.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaClassificacoesTiposArtigosGeral" Width="1.5" PointX="23" PointY="399.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaCodigosIVA" Width="1.5" PointX="23" PointY="306.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaCodigosPrecos" Width="1.5" PointX="11.75" PointY="297.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaCompostoTransformacaoMetodoCusto" Width="1.5" PointX="25.25" PointY="319.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaComunicacao" Width="1.5" PointX="3" PointY="27" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaComunicacaoSmsTemplatesCondicoes" Width="1.5" PointX="9.75" PointY="32.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaComunicacaoSmsTemplatesFiltros" Width="1.5" PointX="7.5" PointY="32.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaComunicacaoSmsTemplatesValores" Width="1.5" PointX="12" PointY="20.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaEmissaoFatura" Width="1.5" PointX="11.75" PointY="403.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaEmissaoPackingList" Width="1.5" PointX="11.75" PointY="407.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaEntidadeComparticipacao" Width="1.5" PointX="26" PointY="298" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaEntidadeDescricao" Width="1.5" PointX="26" PointY="376.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaEntidadesEstados" Width="1.5" PointX="17.75" PointY="315.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaEntidadesF3M" Width="1.5" PointX="6.75" PointY="283.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaEntidadesFormulas" Width="1.5" PointX="16.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaEspacoFiscal" Width="1.5" PointX="6.75" PointY="367.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaEstadoCivil" Width="1.5" PointX="16.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaFormasCalculoComissoes" Width="1.5" PointX="17.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaFormatoUnidadeTempo" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaFuncionalidadesConsentimento" Width="1.5" PointX="0.75" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaIdiomas" Width="1.5" PointX="4.5" PointY="314.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaMateriasLentes" Width="1.5" PointX="31.25" PointY="290.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaModulos" Width="1.5" PointX="3.75" PointY="331.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaMoedas" Width="1.5" PointX="4.5" PointY="321.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaNaturezas" Width="1.5" PointX="20" PointY="324.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaOrdemLotes" Width="1.5" PointX="25.25" PointY="259.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaParametrosLoja" Width="1.5" PointX="0.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaParentesco" Width="1.5" PointX="2.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaRegimeIVA" Width="1.5" PointX="6.75" PointY="393.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaRegioesIVA" Width="1.5" PointX="6.75" PointY="399.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaRelacaoEspacoFiscalRegimeIva" Width="1.5" PointX="9" PointY="377.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaSexo" Width="1.5" PointX="6.75" PointY="405.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaSiglasPaises" Width="1.5" PointX="4.5" PointY="294" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaSuperficiesLentes" Width="1.5" PointX="31.25" PointY="294.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaTipoDistMatPrima" Width="1.5" PointX="4.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaTipoDistOperacoes" Width="1.5" PointX="18.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaTipoOp" Width="1.5" PointX="18.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaTipoOperacoes" Width="1.5" PointX="18.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaTiposAnexos" Width="1.5" PointX="9" PointY="284.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaTiposComponente" Width="1.5" PointX="25.25" PointY="254.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaTiposComposicoes" Width="1.5" PointX="25.25" PointY="381" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaTiposCondDataVencimento" Width="1.5" PointX="4.5" PointY="302.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaTiposDimensoes" Width="1.5" PointX="25.25" PointY="385" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaTiposDocumento" Width="1.5" PointX="3.75" PointY="367.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaTiposDocumentoColunasAutomaticas" Width="1.5" PointX="16.25" PointY="367" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaTiposDocumentoComunicacao" Width="1.5" PointX="37.25" PointY="295" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaTiposDocumentoFiscal" Width="1.5" PointX="3.75" PointY="326.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaTiposDocumentoImportacao" Width="1.5" PointX="18.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaTiposDocumentoMovStock" Width="1.5" PointX="20" PointY="329.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaTiposDocumentoOrigem" Width="1.5" PointX="37.25" PointY="375.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaTiposDocumentoPrecoUnitario" Width="1.5" PointX="20" PointY="312.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaTiposEntidade" Width="1.5" PointX="6.75" PointY="419.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaTiposEntidadeModulos" Width="1.5" PointX="28.25" PointY="297.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaTiposEstados" Width="1.5" PointX="17.75" PointY="319.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaTiposEtiquetas" Width="1.5" PointX="19.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaTiposExtensoesFicheiros" Width="1.5" PointX="6.75" PointY="287.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaTiposFases" Width="1.5" PointX="33.5" PointY="380.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaTiposFormasPagamento" Width="1.5" PointX="4.5" PointY="308.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaTiposGraduacoes" Width="1.5" PointX="39.5" PointY="379.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaTiposIVA" Width="1.5" PointX="23" PointY="311.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaTiposLentes" Width="1.5" PointX="31.25" PointY="298.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaTiposLinhasMP" Width="1.5" PointX="20.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaTiposLiquidacao" Width="1.5" PointX="20" PointY="308" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaTiposMaquinas" Width="1.5" PointX="20.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaTiposOlhos" Width="1.5" PointX="39.5" PointY="383.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaTiposPessoa" Width="1.5" PointX="6.75" PointY="410.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaTiposPrecos" Width="1.5" PointX="25.25" PointY="389.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaTiposServicos" Width="1.5" PointX="33.5" PointY="369.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaTiposTextoBase" Width="1.5" PointX="5.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSistemaVerbasIS" Width="1.5" PointX="23" PointY="286.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbStockArtigos" Width="1.5" PointX="16.5" PointY="346" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbStockArtigosNecessidades" Width="1.5" PointX="13.5" PointY="359.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSubFamilias" Width="1.5" PointX="25.25" PointY="393.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbSuplementosLentes" Width="1.5" PointX="44.75" PointY="295.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbTemplates" Width="1.5" PointX="3" PointY="440.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbTextosBase" Width="1.5" PointX="8" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbTiposArtigos" Width="1.5" PointX="25.25" PointY="398.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbTiposConsultas" Width="1.5" PointX="8.25" PointY="387.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbTiposContatos" Width="1.5" PointX="12" PointY="321.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbTiposDados" Width="1.5" PointX="9" PointY="321.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbTiposDocumento" Width="1.5" PointX="22.25" PointY="318.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbTiposDocumentoIdioma" Width="1.5" PointX="30.5" PointY="326.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbTiposDocumentoSeries" Width="1.5" PointX="39.5" PointY="330.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbTiposDocumentoSeriesPermissoes" Width="1.5" PointX="41.75" PointY="317.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbTiposDocumentoTipEntPermDoc" Width="1.5" PointX="30.5" PointY="321.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbTiposFases" Width="1.5" PointX="35.75" PointY="380" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbTiposFornecimentos" Width="1.5" PointX="9" PointY="325.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbTiposRelacao" Width="1.5" PointX="20.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbTiposRetencao" Width="1.5" PointX="20.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbTiposTratamentosLentes" Width="1.5" PointX="40.25" PointY="289.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbTratamentosLentes" Width="1.5" PointX="42.5" PointY="288" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbUnidades" Width="1.5" PointX="25.25" PointY="404" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbUnidadesRelacoes" Width="1.5" PointX="27.5" PointY="405.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbUnidadesTempo" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbVersao" Width="1.5" PointX="20.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbControloDocumentos" Width="1.5" PointX="44.75" PointY="328.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.tbControloValidacaoStock" Width="1.5" PointX="22.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.vwArtigos" Width="1.5" PointX="0.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.vwCCArtigos" Width="1.5" PointX="22.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.vwCCClientes" Width="1.5" PointX="16.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.vwCCFornecedores" Width="1.5" PointX="22.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.vwContagemStock" Width="1.5" PointX="24.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.vwExamesProps" Width="1.5" PointX="24.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.vwMapaCaixa" Width="1.5" PointX="24.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.vwMapaIvaCompras" Width="1.5" PointX="22.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.vwMapaIvaVendas" Width="1.5" PointX="24.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.vwMapaPendentesCompras" Width="1.5" PointX="26.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.vwMapaPendentesVendas" Width="1.5" PointX="26.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.vwMapaRankingCompras" Width="1.5" PointX="26.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.vwMapaRankingVendas" Width="1.5" PointX="18.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="F3MEntities.vwStokArtigos" Width="1.5" PointX="26.75" PointY="26.75" IsExpanded="true" />
+        <AssociationConnector Association="F3MEntities.FK_tbAgendamento_tbClientes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbAgendamento_tbEspecialidades" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbAgendamento_tbLojas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbAgendamento_tbMedicosTecnicos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbExames_tbAgendamento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArmazens_tbCodigosPostais" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArmazens_tbConcelhos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArmazens_tbDistritos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArmazens_tbLojas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArmazens_tbPaises" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArmazensLocalizacoes_tbArmazens" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosArmazensLocalizacoes_tbArmazens" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbCCStockArtigos_IDArmazem" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosComprasLinhas_tbArmazens" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosComprasLinhas_tbArmazens_Destino" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockContagem_tbArmazens" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockLinhas_tbArmazens" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockLinhas_tbArmazens_Destino" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasLinhas_tbArmazens" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasLinhas_tbArmazens_Destino" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbStockArtigos_IDArmazem" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbStockArtigosNecessidades_IDArmazem" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosArmazensLocalizacoes_tbArmazensLocalizacoes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbCCStockArtigos_IDArmazemLocalizacao" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosComprasLinhas_tbArmazensLocalizacoes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosComprasLinhas_tbArmazensLocalizacoes_Destino" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockContagem_tbArmazensLocalizacoes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockLinhas_tbArmazensLocalizacoes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockLinhas_tbArmazensLocalizacoes_Destino" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasLinhas_tbArmazensLocalizacoes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasLinhas_tbArmazensLocalizacoes_Destino" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbStockArtigos_IDArmazemLocalizacao" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbStockArtigosNecessidades_IDArmazemLocalizacao" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbAros_IDModelo" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbAros_tbArtigos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigos_IDTipoDocumento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigos_tbComposicoes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigos_tbDimensoes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigos_tbDimensoes1" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigos_tbEstacoes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigos_tbFamilias" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigos_tbGruposArtigo" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigos_tbImpostoSelo" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigos_tbIVA" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigos_tbMarcas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigos_tbSistemaClassificacoesTiposArtigos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigos_tbSistemaCompostoTransformacaoMetodoCusto" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigos_tbSistemaOrdemLotes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigos_tbSistemaOrdemLotes1" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigos_tbSistemaOrdemLotes2" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigos_tbSistemaTiposComponente" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigos_tbSistemaTiposComposicoes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigos_tbSistemaTiposDimensoes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigos_tbSistemaTiposPrecos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigos_tbSistemaTiposPrecos1" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigos_tbSubFamilias" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigos_tbTiposArtigos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigos_tbUnidades" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigos_tbUnidades_Compra" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigos_tbUnidades_Venda" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigos_tbUnidadesStock2" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosAlternativos_tbArtigos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosAlternativos_tbArtigos_Alternativo" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosAnexos_tbArtigos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosArmazensLocalizacoes_tbArtigos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosAssociados_tbArtigos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosAssociados_tbArtigos_Associado" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosComponentes_tbArtigos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosComponentes_tbArtigos1" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosDadosFinanceiros_tbArtigos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosDadosFinanceirosPVsUPCPerc_tbArtigos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosDimensoes_tbArtigos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosEspecificos_tbArtigos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosFornecedores_tbArtigos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosIdiomas_tbArtigos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosLotes_tbArtigos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosNumerosSeries_IDArtigo" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosPrecos_tbArtigos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosStock_tbArtigos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosUnidades_tbArtigos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbCCStockArtigos_IDArtigo" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbCCStockArtigos_IDArtigoPA" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbCCStockArtigos_IDArtigoPara" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbComunicacaoAutoridadeTributariaLinhas_tbArtigos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosComprasLinhas_tbArtigos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosComprasLinhas_tbArtigos1" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosComprasLinhas_tbArtigos2" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockContagemLinhas_tb" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockLinhas_tbArtigos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockLinhas_tbArtigos1" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockLinhas_tbArtigos2" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasLinhas_tbArtigos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasLinhas_tbArtigos1" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasLinhas_tbArtigos2" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbEscaloesEspecificos_tbArtigos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbLentesContato_tbArtigos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbLentesOftalmicas_tbArtigos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbOculosSol_tbArtigos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbStockArtigos_IDArtigo" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbStockArtigosNecessidades_IDArtigo" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbStockArtigosNecessidades_IDArtigoPA" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbStockArtigosNecessidades_IDArtigoPara" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosAlternativos_tbDimensoesLinhas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosAlternativos_tbDimensoesLinhas1" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosAlternativos_tbDimensoesLinhas2" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosAlternativos_tbDimensoesLinhas3" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosAnexos_tbSistemaTiposAnexos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosAssociados_tbDimensoesLinhas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosAssociados_tbDimensoesLinhas1" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosAssociados_tbDimensoesLinhas2" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosAssociados_tbDimensoesLinhas3" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosComponentes_tbDimensoesLinhas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosComponentes_tbDimensoesLinhas1" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosComponentes_tbDimensoesLinhas2" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosComponentes_tbDimensoesLinhas3" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosComponentes_tbSistemaTiposComponente" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosDimensoes_IDTipoDocumento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosDimensoes_tbDimensoesLinhas_1" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosDimensoes_tbDimensoesLinhas_2" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosDimensoesEmpresa_tbArtigosDimensoes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbCCStockArtigos_IDArtigoDimensao" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosComprasLinhasDimensoes_tbArtigosDimensoes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockLinhasDimensoes_tbArtigosDimensoes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasLinhasDimensoes_tbArtigosDimensoes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbStockArtigos_IDArtigoDimensao" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbStockArtigosNecessidades_IDArtigoDimensao" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosEspecificos_tbEstacoes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosFornecedores_tbFornecedores" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosIdiomas_tbIdiomas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbCCStockArtigos_IDArtigoLote" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosComprasLinhas_tbArtigosLotes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockContagemLinhas_tbLote" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockLinhas_tbArtigosLotes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasLinhas_tbArtigosLotes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbStockArtigos_IDArtigoLote" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbStockArtigosNecessidades_IDArtigoLote" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbCCStockArtigos_IDArtigoNumeroSerie" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosComprasLinhas_tbArtigosNumerosSeries" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockLinhas_tbArtigosNumerosSeries" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasLinhas_tbArtigosNumerosSeries" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbStockArtigos_IDArtigoNumeroSerie" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbStockArtigosNecessidades_IDArtigoNumeroSerie" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosPrecos_tbArtigosPrecos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosPrecos_tbLojas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosPrecos_tbSistemaCodigosPrecos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosPrecos_tbUnidades" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosUnidades_tbUnidades" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbArtigosUnidades_tbUnidades_Conversao" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbATEstadoComunicacao_tbTiposDocumento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbATEstadoComunicacao_tbTiposDocumentoSeries" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbATEstadoComunicacaoLinhas_tbATEstadoComunicacao" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbBancos_tbLojas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbBancosContatos_tbBancos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbBancosMoradas_tbBancos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbContasBancarias_tbBancos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbBancosContatos_tbTiposContatos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbBancosMoradas_tbCodigosPostais" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbBancosMoradas_tbConcelhos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbBancosMoradas_tbDistritos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbBancosMoradas_tbPaises" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasLinhas_tbCampanhas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbCCStockArtigos_IDMoeda" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbCCStockArtigos_IDTipoDocumento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbCCStockArtigos_IDTipoDocumentoOrigem" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbCCStockArtigos_IDTipoEntidade" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbCCStockArtigos_tbTiposDocumentoOrigemInicial" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbCCStockArtigos_tbTiposDocumentoSeries" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbCCStockArtigos_tbTiposDocumentoSeriesOrigem" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbClientes_tbClientes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbClientes_tbCondicoesPagamento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbClientes_tbEntidades1" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbClientes_tbEntidades2" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbClientes_tbFormasExpedicao" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbClientes_tbFormasPagamento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbClientes_tbIdiomas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbClientes_tbLojas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbClientes_tbMedicosTecnicos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbClientes_tbMoedas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbClientes_tbPaises" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbClientes_tbProfissoes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbClientes_tbSegmentosMercado" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbClientes_tbSetoresAtividade" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbClientes_tbSistemaCodigosPrecos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbClientes_tbSistemaEmissaoFatura" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbClientes_tbSistemaEmissaoPackingList" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbClientes_tbSistemaEspacoFiscal" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbClientes_tbSistemaRegimeIVA" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbClientes_tbSistemaRegioesIVA" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbClientes_tbSistemaSexo" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbClientes_tbSistemaTiposEntidade" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbClientes_tbSistemaTiposPessoa" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbClientesAnexos_tbClientes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbClientesContatos_tbClientes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbClientesLojas_tbClientes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbClientesMoradas_tbClientes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStock_tbClientes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendas_tbClientes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbEntidades_tbClientes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbExames_tbClientes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosVendasLinhas_tbClientes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbRecibos_tbClientes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbRecibosLinhas_tbClientes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTiposDocumento_tbClientes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbClientesAnexos_tbSistemaTiposAnexos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbClientesContatos_tbTiposContatos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbClientesLojas_tbLojas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbClientesMoradas_tbCodigosPostais" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbClientesMoradas_tbConcelhos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbClientesMoradas_tbDistritos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbClientesMoradas_tbPaises" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbCodigosPostais_tbConcelhos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbContasBancariasMoradas_tbCodigosPostais" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosCompras_tbCodigosPostais_Carga" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosCompras_tbCodigosPostais_Descarga" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosCompras_tbCodigosPostais_Destinatario" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosCompras_tbCodigosPostais_Fiscal" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStock_tbCodigosPostais_Carga" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStock_tbCodigosPostais_Descarga" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStock_tbCodigosPostais_Destinatario" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStock_tbCodigosPostais_Fiscal" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendas_tbCodigosPostais_Carga" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendas_tbCodigosPostais_Descarga" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendas_tbCodigosPostais_Destinatario" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendas_tbCodigosPostais_Fiscal" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbEntidadesMoradas_tbCodigosPostais" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbFornecedoresMoradas_tbCodigosPostais" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbMedicosTecnicosMoradas_tbCodigosPostais" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosCompras_tbCodigosPostais_Carga" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosCompras_tbCodigosPostais_Descarga" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosCompras_tbCodigosPostais_Destinatario" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosCompras_tbCodigosPostais_Fiscal" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbRecibos_tbCodigosPostais" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbRecibosLinhas_tbCodigosPostais" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbComposicoesIdiomas_tbComposicoes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbComposicoesIdiomas_tbIdiomas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbComunicacao_tbSistemaComunicacao" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbComunicacaoSmsTemplates_tbComunicacao" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbMensagemregistro_tbComunicacao" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbComunicacaoApis_tbSistemaComunicacao" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbComunicacaoAutoridadeTributariaAnexos_tbComunicacaoAutoridadeTributaria" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbComunicacaoAutoridadeTributariaAnexos_tbSistemaTiposAnexos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbComunicacaoAutoridadeTributariaLinhas_tbUnidades" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbComunicacaoregistro_tbComunicacaoSmsTemplates" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbComunicacaoregistro_tbMensagemregistro" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbComunicacaoSmsTemplates_tbParametrizacaoConsentimentosPerguntas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbComunicacaoSmsTemplatesGrupos_tbComunicacaoSmsTemplates" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbComunicacaoSmsTemplatesGrupos_tbComunicacaoSmsTemplatesGrupos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbComunicacaoSmsTemplatesRegras_tbComunicacaoSmsTemplatesGrupos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbComunicacaoSmsTemplatesRegras_tbSistemaComunicacaoSmsTemplatesCondicoes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbComunicacaoSmsTemplatesRegras_tbSistemaComunicacaoSmsTemplatesFiltros" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbComunicacaoSmsTemplatesValores_tbComunicacaoSmsTemplatesRegras" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbComunicacaoSmsTemplatesValores_tbSistemaComunicacaoSmsTemplatesValores" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbConcelhos_tbDistritos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbContasBancariasMoradas_tbConcelhos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosCompras_tbConcelhos_Carga" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosCompras_tbConcelhos_Descarga" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosCompras_tbConcelhos_Destinatario" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosCompras_tbConcelhos_Fiscal" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStock_tbConcelhos_Carga" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStock_tbConcelhos_Descarga" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStock_tbConcelhos_Destinatario" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStock_tbConcelhos_Fiscal" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendas_tbConcelhos_Carga" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendas_tbConcelhos_Descarga" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendas_tbConcelhos_Destinatario" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendas_tbConcelhos_Fiscal" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbEntidadesMoradas_tbConcelhos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbFornecedoresMoradas_tbConcelhos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbMedicosTecnicosMoradas_tbConcelhos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosCompras_tbConcelhos_Carga" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosCompras_tbConcelhos_Descarga" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosCompras_tbConcelhos_Destinatario" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosCompras_tbConcelhos_Fiscal" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbRecibos_tbConcelhos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbRecibosLinhas_tbConcelhos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbCondicionantes_IDParametroCamposContexto" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbCondicoesPagamento_tbSistemaTiposCondDataVencimento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbCondicoesPagamentoDescontos_tbCondicoesPagamento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbCondicoesPagamentoIdiomas_tbCondicoesPagamento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosCompras_tbCondicoesPagamento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStock_tbCondicoesPagamento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendas_tbCondicoesPagamento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbFornecedores_tbCondicoesPagamento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosCompras_tbCondicoesPagamento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbCondicoesPagamentoDescontos_tbSistemaTiposEntidade" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbCondicoesPagamentoIdiomas_tbIdiomas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbConsentimentos_tbParametrizacaoConsentimentos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbRespostasConsentimentos_tbConsentimentos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbContabilidadeConfiguracaoLinhas_tbContabilidadeConfiguracao" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbContasBancarias_tbLojas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbContasBancarias_tbMoedas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbContasBancariasContatos_tbContasBancarias" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbContasBancariasMoradas_tbContasBancarias" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbContasBancariasContatos_tbTiposContatos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbContasBancariasMoradas_tbDistritos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbContasBancariasMoradas_tbPaises" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbContasCaixa_tbLojas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbMapaCaixa_tbContasCaixa" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosVendas_tbContasCaixa" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbCoresLentes_tbMarcas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbCoresLentes_tbModelos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbCoresLentes_tbSistemaMateriasLentes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbCoresLentes_tbSistemaTiposLentes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbLentesOftalmicas_tbCoresLentes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDimensoesLinhas_tbDimensoes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosCompras_tbDistritos_Carga" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosCompras_tbDistritos_Descarga" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosCompras_tbDistritos_Destinatario" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosCompras_tbDistritos_Fiscal" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStock_tbDistritos_Carga" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStock_tbDistritos_Descarga" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStock_tbDistritos_Destinatario" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStock_tbDistritos_Fiscal" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendas_tbDistritos_Carga" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendas_tbDistritos_Descarga" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendas_tbDistritos_Destinatario" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendas_tbDistritos_Fiscal" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbEntidadesMoradas_tbDistritos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbFornecedoresMoradas_tbDistritos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbMedicosTecnicosMoradas_tbDistritos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosCompras_tbDistritos_Carga" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosCompras_tbDistritos_Descarga" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosCompras_tbDistritos_Destinatario" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosCompras_tbDistritos_Fiscal" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbRecibos_tbDistritos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbRecibosLinhas_tbDistritos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosCompras_tbDocumentosStockReserva" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosCompras_tbEstados" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosCompras_tbFormasExpedicao" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosCompras_tbFornecedores" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosCompras_tbIVA_Portes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosCompras_tbLojas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosCompras_tbLojas2" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosCompras_tbMoedas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosCompras_tbPaises" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosCompras_tbPaises_Descarga" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosCompras_tbPaises_Fiscal" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosCompras_tbSistemaEspacoFiscal" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosCompras_tbSistemaEspacoFiscal1" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosCompras_tbSistemaRegimeIVA" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosCompras_tbSistemaRegimeIVA1" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosCompras_tbSistemaRegioesIVA" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosCompras_tbSistemaTiposDocumentoPrecoUnitario" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosCompras_tbSistemaTiposEntidade" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosCompras_tbTiposDocumento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosCompras_tbTiposDocumentoSeries" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosComprasAnexos_tbDocumentosCompras" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosComprasLinhas_tbDocumentosCompras" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosComprasPendentes_tbDocumentosCompras" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosComprasLinhas_tbDocumentosCompras" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosComprasAnexos_tbSistemaTiposAnexos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosComprasLinhas_IDTipoDocumentoOrigem" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosComprasLinhas_tbDocumentosComprasLinhas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosComprasLinhas_tbDocumentosComprasLinhasInicial" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosComprasLinhas_tbDocumentosStockLinhas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosComprasLinhas_tbDocumentosStockLinhasInicial" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosComprasLinhas_tbDocumentosVendasLinhas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosComprasLinhas_tbIVA" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosComprasLinhas_tbSistemaCodigosIVA" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosComprasLinhas_tbSistemaEspacoFiscal" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosComprasLinhas_tbSistemaRegimeIVA" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosComprasLinhas_tbSistemaTiposIVA" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosComprasLinhas_tbSistemaTiposPrecos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosComprasLinhas_tbTiposDocumentoOrigemInicial" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosComprasLinhas_tbTiposDocumentoSeriesOrigem" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosComprasLinhas_tbUnidades" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosComprasLinhas_tbUnidades2" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosComprasLinhas_tbUnidades3" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosComprasLinhasDimensoes_tbDocumentosComprasLinhas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosComprasLinhasDimensoes_tbDocumentosComprasLinhasDimensoes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosComprasLinhasDimensoes_tbDocumentosComprasLinhasDimensoesInicial" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosComprasLinhasDimensoes_tbDocumentosStockLinhasDimensoes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosComprasLinhasDimensoes_tbDocumentosStockLinhasDimensoesInicial" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosComprasPendentes_tbSistemaNaturezas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStock_tbDocumentosStockReserva" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStock_tbEstados" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStock_tbFormasExpedicao" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStock_tbIVA_Portes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStock_tbLojas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStock_tbLojas2" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStock_tbMoedas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStock_tbPaises" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStock_tbPaises_Descarga" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStock_tbPaises_Fiscal" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStock_tbSistemaEspacoFiscal" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStock_tbSistemaEspacoFiscal1" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStock_tbSistemaRegimeIVA" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStock_tbSistemaRegimeIVA1" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStock_tbSistemaRegioesIVA" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStock_tbSistemaTiposDocumentoPrecoUnitario" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStock_tbSistemaTiposEntidade" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStock_tbTiposDocumento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStock_tbTiposDocumentoSeries" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockAnexos_tbDocumentosStock" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockLinhas_tbDocumentosStock" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockAnexos_tbSistemaTiposAnexos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockContagem_tbEstado" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockContagem_tbSistemaMoedas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockContagem_tbTipoDocumento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockContagem_tbTiposDocumentoSeries" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockContagemAnexos_tbDocumentosStockContagem" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockContagemLinhas_tbDocumentosStockContagem" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockContagemAnexos_tbSistemaTiposAnexos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockContagemLinhas_tbUnidade" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockLinhas_IDTipoDocumentoOrigem" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockLinhas_tbDocumentosStockLinhas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockLinhas_tbDocumentosStockLinhasInicial" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockLinhas_tbIVA" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockLinhas_tbSistemaCodigosIVA" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockLinhas_tbSistemaEspacoFiscal" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockLinhas_tbSistemaRegimeIVA" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockLinhas_tbSistemaTiposIVA" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockLinhas_tbSistemaTiposPrecos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockLinhas_tbTiposDocumentoOrigemInicial" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockLinhas_tbTiposDocumentoSeriesOrigem" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockLinhas_tbUnidades" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockLinhas_tbUnidades2" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockLinhas_tbUnidades3" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockLinhasDimensoes_tbDocumentosStockLinhas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasLinhas_tbDocumentosStockLinhasInicial" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockLinhasDimensoes_tbDocumentosStockLinhasDimensoes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosStockLinhasDimensoes_tbDocumentosStockLinhasDimensoesInicial" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasLinhasDimensoes_tbDocumentosStockLinhasDimensoes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasLinhasDimensoes_tbDocumentosStockLinhasDimensoesInicial" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendas_tbEntidades1" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendas_tbEntidades2" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendas_tbEstados" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendas_tbFormasExpedicao" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendas_tbIVA_Portes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendas_tbLojas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendas_tbLojas2" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendas_tbMoedas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendas_tbPaises" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendas_tbPaises_Descarga" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendas_tbPaises_Fiscal" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendas_tbPaises1" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendas_tbPaises2" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendas_tbSistemaEspacoFiscal" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendas_tbSistemaEspacoFiscal1" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendas_tbSistemaRegimeIVA" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendas_tbSistemaRegimeIVA1" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendas_tbSistemaRegioesIVA" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendas_tbSistemaTiposDocumentoPrecoUnitario" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendas_tbSistemaTiposEntidade" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendas_tbTiposDocumento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendas_tbTiposDocumentoSeries" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasAnexos_tbDocumentosVendas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasFormasPagamento_tbDocumentosVendas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasLinhas_tbDocumentosVendas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasPendentes_tbDocumentosVendas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosVendasLinhas_tbDocumentosVendas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbRecibosLinhas_tbDocumentosVendas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbServicos_tbDocumentosVendas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasAnexos_tbSistemaTiposAnexos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasFormasPagamento_tbFormasPagamento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasFormasPagamento_tbLojas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasLinhas_IDTipoDocumentoOrigem" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasLinhas_tbDocumentosVendasLinhasInicial" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasLinhas_tbIVA" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasLinhas_tbServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasLinhas_tbSistemaCodigosIVA" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasLinhas_tbSistemaEspacoFiscal" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasLinhas_tbSistemaRegimeIVA" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasLinhas_tbSistemaTiposGraduacoes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasLinhas_tbSistemaTiposIVA" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasLinhas_tbSistemaTiposOlhos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasLinhas_tbSistemaTiposPrecos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasLinhas_tbSistemaTiposServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasLinhas_tbTiposDocumentoOrigemInicial" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasLinhas_tbTiposDocumentoSeriesOrigem" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasLinhas_tbUnidades" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasLinhas_tbUnidades2" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasLinhas_tbUnidades3" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasLinhasDimensoes_tbDocumentosVendasLinhas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasLinhasDimensoes_tbDocumentosVendasLinhasDimensoes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasLinhasDimensoes_tbDocumentosVendasLinhasDimensoesInicial" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasLinhasGraduacoes_tbServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasLinhasGraduacoes_tbSistemaTiposGraduacoes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasLinhasGraduacoes_tbSistemaTiposOlhos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbDocumentosVendasPendentes_tbSistemaNaturezas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbEntidades_tbLojas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbEntidades_tbSistemaEntidadeComparticipacao" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbEntidades_tbSistemaEntidadeDescricao" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbEntidadesAnexos_tbEntidades" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbEntidadesComparticipacoes_tbEntidades" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbEntidadesContatos_tbEntidades" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbEntidadesLojas_tbEntidades" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbEntidadesMoradas_tbEntidades" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbEntidadesAnexos_tbSistemaTiposAnexos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbEntidadesComparticipacoes_tbSistemaTiposLentes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbEntidadesComparticipacoes_tbTiposArtigos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbEntidadesContatos_tbTiposContatos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbEntidadesLojas_tbLojas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbEntidadesMoradas_tbPaises" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbEscaloesEspecificos_tbEscaloes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbEscaloesGerais_tbEscaloes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbEscaloesPenalizacoes_tbEscaloes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbEscaloesEspecificos_tbFamilias" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbEscaloesEspecificos_tbGruposArtigo" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbEscaloesEspecificos_tbSubFamilias" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbExames_tbEspecialidades" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbMedicosTecnicosEspecialidades_tbEspecialidades" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbEstados_tbSistemaEntidadesEstados" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbEstados_tbSistemaTiposEstados" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosCompras_tbEstados" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbRecibos_tbEstados" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTiposDocumento_tbEstados" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbExames_tbLojas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbExames_tbMedicosTecnicos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbExames_tbTemplates" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbExames_tbTiposConsultas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbExamesAnexos_tbExames" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbExamesProps_tbExames" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbExamesPropsFotos_tbExames" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbExamesAnexos_tbSistemaTiposAnexos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbExamesProps_tbExamesProps" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbExamesTemplate_tbExamesTemplate" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbExamesTemplate_tbTemplates" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbSubFamilias_tbFamilias" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbFormasExpedicaoIdiomas_tbFormasExpedicao" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosCompras_tbFormasExpedicao" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbFormasExpedicaoIdiomas_tbIdiomas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbFormasPagamento_tbSistemaTiposFormasPagamento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbFormasPagamentoIdiomas_tbFormasPagamento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbFornecedores_tbFormasPagamento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosComprasFormasPagamento_tbFormasPagamento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosVendasFormasPagamento_tbFormasPagamento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbRecibosFormasPagamento_tbFormasPagamento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbFormasPagamentoIdiomas_tbIdiomas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbFornecedores_tbIdiomas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbFornecedores_tbLojas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbFornecedores_tbMoedas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbFornecedores_tbPaises" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbFornecedores_tbProfissoes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbFornecedores_tbSistemaEspacoFiscal" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbFornecedores_tbSistemaRegimeIVA" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbFornecedores_tbSistemaRegioesIVA" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbFornecedores_tbSistemaSexo" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbFornecedores_tbSistemaTiposEntidade" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbFornecedores_tbSistemaTiposPessoa" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbFornecedoresAnexos_tbFornecedores" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbFornecedoresContatos_tbFornecedores" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbFornecedoresMoradas_tbFornecedores" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbFornecedoresTiposFornecimento_tbFornecedores" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosCompras_tbFornecedores" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosComprasLinhas_tbClientes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbFornecedoresAnexos_tbSistemaTiposAnexos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbFornecedoresContatos_tbTiposContatos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbFornecedoresMoradas_tbPaises" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbFornecedoresTiposFornecimento_tbTiposFornecimentos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbGamasLentes_tbModelos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbGamasLentes_tbTratamentosLentes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbIdiomas_tbSistemaIdiomas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbSegmentosMercadoIdiomas_tbIdiomas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbSetoresAtividadeIdiomas_tbIdiomas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTiposDocumentoIdioma_tbIdiomas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbImpostoSelo_tbSistemaVerbasIS" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbIVA_tbSistemaCodigosIVA" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbIVA_tbSistemaTiposIVA" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbIVADescontos_tbIVA" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbIVARegioes_tbIVA" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbIVARegioes_tbIVA1" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosCompras_tbIVA_Portes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbIVARegioes_tbSistemaRegioesIVA" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbLentesContato_tbModelos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbLentesOftalmicas_tbModelos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbLentesOftalmicas_tbTratamentosLentes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbLentesOftalmicasSuplementos_tbLentesOftalmicas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbLentesOftalmicasSuplementos_tbSuplementosLentes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbMapasVistas_tbLojas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbMedicosTecnicos_tbLojas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosCompras_tbLojas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosComprasLinhas_tbLojas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosVendas_tbLojas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosVendasFormasPagamento_tbLojas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosVendasLinhas_tbLojas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbParametrosContexto_tbLojas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbParametrosLoja_IDLoja" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbParametrosLojaLinhas_tbLojas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPlaneamento_tbLojas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbRazoes_tbLojas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbRecibos_tbLojas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbSAFT_tbLojas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTemplates_tbLojas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTiposConsultas_tbLojas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTiposDocumentoSeries_tbLojas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbMapasVistas_tbSistemaModulos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbMapasVistas_tbSistemaTiposDocumento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbMapasVistas_tbSistemaTiposDocumentoFiscal" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTiposConsultas_tbMapasVistas1" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTiposConsultas_tbMapasVistas2" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTiposDocumentoSeries_tbMapasVistas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbMarcas_tbSegmentosMarcas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbModelos_tbMarcas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbSuplementosLentes_tbMarcas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTratamentosLentes_tbMarcas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbMedicosTecnicos_tbSistemaAcoes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbMedicosTecnicos_tbSistemaSexo" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbMedicosTecnicos_tbSistemaTiposEntidade" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbMedicosTecnicos_tbTemplates" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbMedicosTecnicos_tbTiposConsultas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbMedicosTecnicosAnexos_tbMedicosTecnicos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbMedicosTecnicosContatos_tbMedicostecnicos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbMedicosTecnicosEspecialidades_tbMedicosTecnicos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbMedicosTecnicosMoradas_tbMedicosTecnicos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPlaneamento_tbMedicosTecnicos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbServicos_tbMedicosTecnicos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbMedicosTecnicosAnexos_tbSistemaTiposAnexos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbMedicosTecnicosContatos_tbTiposContatos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbMedicosTecnicosMoradas_tbPaises" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbModelos_tbSistemaMateriasLentes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbModelos_tbSistemaSuperficiesLentes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbModelos_tbSistemaTiposLentes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbModelos_tbTiposArtigos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbOculosSol_IDModelo" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPrecosLentes_tbModelos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbSuplementosLentes_tbModelos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTratamentosLentes_tbModelos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbMoedas_tbSistemaMoedas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosCompras_tbMoedas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosComprasFormasPagamento_tbMoedas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosComprasLinhas_tbMoedas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosVendas_tbMoedas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosVendasLinhas_tbMoedas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbParametrosEmpresa_tbMoedas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbParametrosLoja_tbMoedas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbRecibos_tbMoedas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbRecibosFormasPagamento_tbMoedas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbRecibosLinhas_tbMoedas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosCompras_tbPaises" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosCompras_tbPaises_Descarga" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosCompras_tbPaises_Fiscal" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosCompras_tbSistemaEspacoFiscal" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosCompras_tbSistemaEspacoFiscal1" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosCompras_tbSistemaRegimeIVA" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosCompras_tbSistemaRegimeIVA1" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosCompras_tbSistemaRegioesIVA" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosCompras_tbSistemaTiposDocumentoPrecoUnitario" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosCompras_tbSistemaTiposEntidade" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosCompras_tbTiposDocumento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosCompras_tbTiposDocumentoSeries" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosComprasAnexos_tbPagamentosCompras" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosComprasFormasPagamento_tbPagamentosCompras" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosComprasLinhas_tbPagamentosCompras" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosComprasAnexos_tbSistemaTiposAnexos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosComprasLinhas_tbSistemaNaturezas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosComprasLinhas_tbTiposDocumento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosComprasLinhas_tbTiposDocumentoSeries" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosVendasFormasPagamento_tbPagamentosVendas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosVendasLinhas_tbPagamentosVendas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbRecibos_tbPagamentosVendas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosVendasLinhas_tbTiposDocumento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPagamentosVendasLinhas_tbTiposDocumentoSeries" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPaises_IDSigla" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbParametrosEmpresa_tbPaises" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbRecibos_tbPaises" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbParametrizacaoConsentimentos_tbSistemaFuncionalidadesConsentimento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbParametrizacaoConsentimentosCamposEntidade_tbParametrizacaoConsentimentos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbParametrizacaoConsentimentosPerguntas_tbParametrizacaoConsentimentos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbParametrizacaoConsentimentosCamposEntidade_tbSistemaFuncionalidadesConsentimento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbRespostasConsentimentos_tbParametrizacaoConsentimentosPerguntas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbParametrosCamposContexto_tbParametrosContexto" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbParametrosCamposContexto_tbTiposDados" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbParametrosContexto_tbParametrosContexto" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbParametrosContexto_tbParametrosEmpresa" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbParametrosEmpresa_tbSistemaIdiomas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbParametrosEmpresa_tbSistemaSiglasPaises" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbParametrosEmpresaCAE_tbParametrosEmpresa" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTiposDocumentoSeries_tbParametrosEmpresaCAE" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbParametrosLoja_tbSistemaRegioesIVA" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbParametrosLoja_tbSistemaSiglasPaises" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbParametrosLojaLinhasValores_tbParametrosLojaLinhas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbPrecosLentes_tbTratamentosLentes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbRecibos_tbSistemaRegioesIVA" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbrecibos_tbSistemaTiposEntidade" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbRecibos_tbTiposDocumento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbRecibos_tbTiposDocumentoSeries" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbRecibosFormasPagamento_tbRecibos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbRecibosLinhas_tbRecibos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbRecibosLinhas_tbTiposDocumento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbRecibosLinhas_tbTiposDocumentoSeries" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbRecibosLinhasTaxas_tbRecibosLinhas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbSegmentosMercadoIdiomas_tbSegmentosMercado" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbServicos_tbSistemaTiposServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbServicosFases_tbServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbServicosFases_tbSistemaTiposServicos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbServicosFases_tbTiposFases" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbSetoresAtividadeIdiomas_tbSetoresAtividade" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTiposDocumento_tbSistemaAcoes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTiposDocumento_tbSistemaAcoes1" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTiposDocumento_tbSistemaAcoes2" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTiposDocumento_tbSistemaAcoes3" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTiposDocumento_tbSistemaAcoes4" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbSistemaTiposLentes_tbSistemaClassificacoesTiposArtigos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTiposArtigos_tbSistemaClassificacoesTiposArtigos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTiposFases_tbSistemaClassificacoesTiposArtigos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTiposArtigos_tbSistemaClassificacoesTiposArtigosGeral" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbSistemaComunicacaoSmsTemplatesCondicoes_tbSistemaComunicacaoSmsTemplatesFiltros" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbSistemaComunicacaoSmsTemplatesValores_tbSistemaComunicacaoSmsTemplatesCondicoes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbSistemaTiposEstados_tbSistemaEntidadesEstados" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbSistemaTiposAnexos_tbSistemaEntidadesF3M" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbSistemaRelacaoEspacoFiscalRegimeIva_tbSistemaEspacoFiscal" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbUnidadesTempo_tbSistemaFormatoUnidadeTempo" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbSuplementosLentes_tbSistemaMateriasLentes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbSistemaTiposDocumento_tbSistemaModulos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbSistemaTiposEntidadeModulos_tbSistemaModulos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTiposDocumento_tbSistemaModulos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTiposDocumento_tbSistemaNaturezas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbSistemaRelacaoEspacoFiscalRegimeIva_tbSistemaRegimeIVA" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbSistemaTiposAnexos_tbSistemaTiposExtensoesFicheiros" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbSistemaTiposDocumentoColunasAutomaticas_tbSistemaTiposDocumento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbSistemaTiposDocumentoFiscal_tbSistemaTiposDocumento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTiposDocumento_tbSistemaTiposDocumento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbSistemaTiposDocumentoColunasAutomaticas_tbSistemaTiposDocumentoColunasAutomaticas" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbSistemaTiposDocumentoColunasAutomaticas_tbTiposDados" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTiposDocumentoSeries_tbSistemaTiposDocumentoComunicacao" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTiposDocumento_tbSistemaTiposDocumentoFiscal" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTiposDocumento_tbSistemaTiposDocumentoMovStock" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTiposDocumentoSeries_tbSistemaTiposDocumentoOrigem" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTiposDocumento_tbSistemaTiposDocumentoPrecoUnitario" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbControloDocumentos_tbSistemaTiposEntidade" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbSistemaTiposEntidadeModulos_tbSistemaTiposEntidade" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTiposDocumentoTipEntPermDoc_tbSistemaTiposEntidadeModulos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTiposFases_tbSistemaTiposFases" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbSuplementosLentes_tbSistemaTiposLentes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTiposDocumento_tbSistemaTiposLiquidacao" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTiposFases_tbSistemaTiposOlhos" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTextosBase_tbSistemaTiposTextoBase" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTiposConsultas_tbTemplates" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbControloDocumentos_tbTiposDocumento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTiposDocumento_tbTiposDocumento1" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTiposDocumento_tbTiposDocumento2" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTiposDocumento_tbTiposDocumento3" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTiposDocumento_tbTiposDocumento4" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTiposDocumentoIdioma_tbTiposDocumento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTiposDocumentoSeries_tbTiposDocumento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTiposDocumentoTipEntPermDoc_tbTiposDocumento" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbControloDocumentos_tbTiposDocumentoSeries" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTiposDocumentoSeriesPermissoes_tbTiposDocumentoSeries" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbTratamentosLentes_tbTiposTratamentosLentes" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbUnidadesRelacoes_tbUnidades" ManuallyRouted="false" />
+        <AssociationConnector Association="F3MEntities.FK_tbUnidadesRelacoes_tbUnidades_Conversao" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

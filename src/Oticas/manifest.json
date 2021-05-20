@@ -1,0 +1,56 @@
+﻿{
+    "name": "PRISMA",
+    "short_name": "PRISMA",
+    "description": "Gestão de Óticas",
+    "start_url": ".",
+    "background_color": "#d8f2fd",
+    "theme_color": "#0098d2",
+    "display": "standalone",
+    "orientation": "any",
+    "icons": [
+        {
+            "src": "F3M/images/logo/prisma.ico",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "images/icones-img/shortcut-icon-16x16.png",
+            "type": "image/png",
+            "sizes": "16x16"
+        },
+        {
+            "src": "images/icones-img/shortcut-icon-32x32.png",
+            "type": "image/png",
+            "sizes": "32x32"
+        },
+        {
+            "src": "images/icones-img/shortcut-icon-48x48.png",
+            "type": "image/png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "images/icones-img/shortcut-icon-96x96.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "images/icones-img/shortcut-icon-168x168.png",
+            "type": "image/png",
+            "sizes": "168x168"
+        },
+        {
+            "src": "images/icones-img/shortcut-icon-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "images/icones-img/shortcut-icon-256x256.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "images/icones-img/shortcut-icon-512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}

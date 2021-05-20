@@ -1,0 +1,1 @@
+﻿<div class="titulo-sec-tab">@Model.Label</div>

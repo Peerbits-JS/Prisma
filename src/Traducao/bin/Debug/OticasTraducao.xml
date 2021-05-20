@@ -1,0 +1,1001 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+OticasTraducao
+</name>
+</assembly>
+<members>
+<member name="T:OticasTraducao.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:OticasTraducao.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:OticasTraducao.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:OticasTraducao.Estrutura">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:OticasTraducao.Estrutura.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:OticasTraducao.Estrutura.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:OticasTraducao.Estrutura.CaixaNaoEstaAberta">
+<summary>
+  Looks up a localized string similar to A caixa não está aberta..
+</summary>
+</member>
+<member name="P:OticasTraducao.Estrutura.CorFundo">
+<summary>
+  Looks up a localized string similar to Cor Fundo.
+</summary>
+</member>
+<member name="P:OticasTraducao.Estrutura.CorFundo1Vez">
+<summary>
+  Looks up a localized string similar to Cor Fundo 1ª Vez.
+</summary>
+</member>
+<member name="P:OticasTraducao.Estrutura.CorTexto">
+<summary>
+  Looks up a localized string similar to Cor Texto.
+</summary>
+</member>
+<member name="P:OticasTraducao.Estrutura.CorTexto1Vez">
+<summary>
+  Looks up a localized string similar to Cor Texto 1ª Vez.
+</summary>
+</member>
+<member name="P:OticasTraducao.Estrutura.Loja">
+<summary>
+  Looks up a localized string similar to Loja.
+</summary>
+</member>
+<member name="P:OticasTraducao.Estrutura.Medico">
+<summary>
+  Looks up a localized string similar to Médico.
+</summary>
+</member>
+<member name="P:OticasTraducao.Estrutura.NumContribuinte">
+<summary>
+  Looks up a localized string similar to Contribuinte.
+</summary>
+</member>
+<member name="P:OticasTraducao.Estrutura.ObrigatorioSelecionarCaixa">
+<summary>
+  Looks up a localized string similar to A caixa é obrigatória.
+</summary>
+</member>
+<member name="P:OticasTraducao.Estrutura.Oculos">
+<summary>
+  Looks up a localized string similar to Óculos.
+</summary>
+</member>
+<member name="P:OticasTraducao.Estrutura.TemAgenda">
+<summary>
+  Looks up a localized string similar to Tem agenda.
+</summary>
+</member>
+<member name="P:OticasTraducao.Estrutura.Tempoporconsulta">
+<summary>
+  Looks up a localized string similar to Tempo por consulta.
+</summary>
+</member>
+<member name="T:OticasTraducao.EstruturaMedicosTecnicos">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaMedicosTecnicos.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaMedicosTecnicos.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaMedicosTecnicos.Abreviatura">
+<summary>
+  Looks up a localized string similar to Abreviatura.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaMedicosTecnicos.Apelido">
+<summary>
+  Looks up a localized string similar to Apelido.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaMedicosTecnicos.CartaoCidadao">
+<summary>
+  Looks up a localized string similar to Cartão do Cidadão/BI.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaMedicosTecnicos.Codigo">
+<summary>
+  Looks up a localized string similar to Código.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaMedicosTecnicos.CorFundo">
+<summary>
+  Looks up a localized string similar to Cor Fundo.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaMedicosTecnicos.CorFundo1Vez">
+<summary>
+  Looks up a localized string similar to Cor Fundo 1ª Vez.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaMedicosTecnicos.CorTexto">
+<summary>
+  Looks up a localized string similar to Cor Texto.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaMedicosTecnicos.CorTexto1Vez">
+<summary>
+  Looks up a localized string similar to Cor Texto 1ª Vez.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaMedicosTecnicos.DataNascimento">
+<summary>
+  Looks up a localized string similar to Data de Nascimento.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaMedicosTecnicos.DataValidade">
+<summary>
+  Looks up a localized string similar to Data de Validade.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaMedicosTecnicos.Entidade1">
+<summary>
+  Looks up a localized string similar to Entidade 1.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaMedicosTecnicos.Entidade2">
+<summary>
+  Looks up a localized string similar to Entidade 2.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaMedicosTecnicos.EntidadeMedicoTecnico">
+<summary>
+  Looks up a localized string similar to Entidades e Médico / Técnico.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaMedicosTecnicos.Foto">
+<summary>
+  Looks up a localized string similar to Fotografia.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaMedicosTecnicos.FotoCaminho">
+<summary>
+  Looks up a localized string similar to FotoCaminho.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaMedicosTecnicos.Loja">
+<summary>
+  Looks up a localized string similar to Loja.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaMedicosTecnicos.Medico">
+<summary>
+  Looks up a localized string similar to Médico.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaMedicosTecnicos.MedicoTecnico">
+<summary>
+  Looks up a localized string similar to Médico / Técnico.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaMedicosTecnicos.NCedula">
+<summary>
+  Looks up a localized string similar to Nº Cédula.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaMedicosTecnicos.NContribuinte">
+<summary>
+  Looks up a localized string similar to Nº Contribuinte.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaMedicosTecnicos.NumContribuinte">
+<summary>
+  Looks up a localized string similar to Contribuinte.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaMedicosTecnicos.NumeroBeneficiario1">
+<summary>
+  Looks up a localized string similar to Nº Beneficiário 1.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaMedicosTecnicos.NumeroBeneficiario2">
+<summary>
+  Looks up a localized string similar to Nº Beneficiário 2.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaMedicosTecnicos.Observacoes">
+<summary>
+  Looks up a localized string similar to Observações.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaMedicosTecnicos.Sexo">
+<summary>
+  Looks up a localized string similar to Sexo.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaMedicosTecnicos.TemAgenda">
+<summary>
+  Looks up a localized string similar to Tem agenda.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaMedicosTecnicos.Tempoconsulta">
+<summary>
+  Looks up a localized string similar to Tempo por consulta.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaMedicosTecnicos.Tipo">
+<summary>
+  Looks up a localized string similar to Tipo.
+</summary>
+</member>
+<member name="T:OticasTraducao.EstruturaCliente">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.Abaixo_Linha">
+<summary>
+  Looks up a localized string similar to Abaixo da Linha.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.Acima_Linha">
+<summary>
+  Looks up a localized string similar to Acima da Linha.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.Adicionar_Linha_Abaixo">
+<summary>
+  Looks up a localized string similar to Adicionar linha abaixo.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.Adicionar_Linha_Acima">
+<summary>
+  Looks up a localized string similar to Adicionar linha acima.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.alerta_aviso">
+<summary>
+  Looks up a localized string similar to Aviso(s).
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.alerta_erro">
+<summary>
+  Looks up a localized string similar to Erro(s).
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.alerta_info">
+<summary>
+  Looks up a localized string similar to Informação.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.alerta_questao">
+<summary>
+  Looks up a localized string similar to Confirmação.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.anexo_a_enviar">
+<summary>
+  Looks up a localized string similar to A Enviar....
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.aplicar_a_todas">
+<summary>
+  Looks up a localized string similar to Aplicar a todas.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.armazens_localizacao_existente">
+<summary>
+  Looks up a localized string similar to Já existe uma localização com o código {0}.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.artigos_armazem_existente">
+<summary>
+  Looks up a localized string similar to O armazém &quot;{0}&quot; já está definido no artigo..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.AteDia">
+<summary>
+  Looks up a localized string similar to Até ao dia.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.campo_modulos_atual">
+<summary>
+  Looks up a localized string similar to Fechar Tabs - Atual.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.campo_modulos_todos">
+<summary>
+  Looks up a localized string similar to Fechar Tabs - Todos.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.campo_modulos_todos_menos_este">
+<summary>
+  Looks up a localized string similar to Fechar Tabs - Todos menos este.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.campo_modulos_tudo_menos_opcao">
+<summary>
+  Looks up a localized string similar to Tudo menos a opção.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.campos_em_falta">
+<summary>
+  Looks up a localized string similar to Campos em Falta.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.campos_invalidos">
+<summary>
+  Looks up a localized string similar to {0} é inválido.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.campos_obrigatorios">
+<summary>
+  Looks up a localized string similar to {0} é obrigatório.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.campos_preenchidos">
+<summary>
+  Looks up a localized string similar to Campos Preenchidos.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.confirmacao_adicao_alteracao">
+<summary>
+  Looks up a localized string similar to Esta pagina está em Adição/Alteração..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.confirmacao_adicao_alteracao_pagina">
+<summary>
+  Looks up a localized string similar to Esta pagina está em Adição/Alteração, pretende fechá-la?.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.confirmacao_adicao_edicao">
+<summary>
+  Looks up a localized string similar to Existem paginas em Adição/Alteração..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.confirmacao_adicao_edicao_cancelar">
+<summary>
+  Looks up a localized string similar to Esta página está em Adição/Alteração, pretende cancelar as alterações efetuadas?.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.confirmacao_cancelar_alteracoes">
+<summary>
+  Looks up a localized string similar to Pretende cancelar as alterações efetuadas?.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.confirmacao_fecho_op">
+<summary>
+  Looks up a localized string similar to Tem a certeza que deseja fechar a opção?.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.confirmacao_logout">
+<summary>
+  Looks up a localized string similar to Tem a certeza que deseja terminar a sessão?.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.confirmacao_marcarvista">
+<summary>
+  Looks up a localized string similar to Tem a certeza que deseja marcar por defeito a lista personalizada {0}?.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.confirmacao_modulo_excepto_atual">
+<summary>
+  Looks up a localized string similar to Pretende fechar todas as opções excepto a atual? .
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.confirmacao_modulo_excepto_outros">
+<summary>
+  Looks up a localized string similar to Pretende fechar a opção atual excepto as outras?.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.confirmacao_modulo_fecha_todos">
+<summary>
+  Looks up a localized string similar to Pretende fechar todas as opções?.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.confirmacao_modulo_tab_opcao_atual">
+<summary>
+  Looks up a localized string similar to Pretende fechar todas as opções e deixar a opção atual?.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.confirmacao_remover">
+<summary>
+  Looks up a localized string similar to Tem a certeza que deseja remover {0}?.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.confirmacao_removevista">
+<summary>
+  Looks up a localized string similar to Tem a certeza que deseja remover a lista personalizada {0}?.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.confirmacao_sair">
+<summary>
+  Looks up a localized string similar to Tem alterações pendentes! Deseja continuar e perder a informação?.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.DesselecionarLinhasTodas">
+<summary>
+  Looks up a localized string similar to Desselecionar as linhas todas.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.detalhes_anexo">
+<summary>
+  Looks up a localized string similar to Detalhes do Anexo &quot;{0}&quot;.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.deve_guardar_alteracoes">
+<summary>
+  Looks up a localized string similar to Existem alterações pendentes no artigo! Pretende guardar?.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.empresas_alterarempresa">
+<summary>
+  Looks up a localized string similar to Alterar empresa.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.empresas_avisoalterarempresa">
+<summary>
+  Looks up a localized string similar to Atenção! Antes de prosseguir deve assegurar-se que tem todas as opções fechadas e todas as janelas do navegador com a aplicação aberta fechadas! Caso deseje continuar todas as opções serão fechadas, porém as janelas devem ser fechadas manualmente!.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.empresas_titulomudaempresa">
+<summary>
+  Looks up a localized string similar to Carrregar outra empresa.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.erro_celula_invalida">
+<summary>
+  Looks up a localized string similar to O valor inserido é inválido..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.erro_nao_existem_areas">
+<summary>
+  Looks up a localized string similar to Não existem áreas definidas para esta empresa..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.erro_ocorrencia">
+<summary>
+  Looks up a localized string similar to {0} &amp;lt.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.erro_selecione_empresa">
+<summary>
+  Looks up a localized string similar to Selecione uma empresa..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.este_anexo">
+<summary>
+  Looks up a localized string similar to este anexo.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.existem_campos_invalidos_nas_grelhas">
+<summary>
+  Looks up a localized string similar to Existem campos inválidos nas grelhas..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.favorito_remover">
+<summary>
+  Looks up a localized string similar to Apagar favorito.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.favorito_renomeado">
+<summary>
+  Looks up a localized string similar to Favorito renomeado!.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.ficheiro_anexado_sucesso">
+<summary>
+  Looks up a localized string similar to Ficheiro anexado com sucesso!.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.FinalMes">
+<summary>
+  Looks up a localized string similar to Final do mês.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.foto_extensoes_permitidas">
+<summary>
+  Looks up a localized string similar to Apenas são permitidas as extensões .jpg, .png, .gif..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.foto_tamanho_permitido">
+<summary>
+  Looks up a localized string similar to Não é permitido mais que 100 KB.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.grelha_sem_registo_selecionado">
+<summary>
+  Looks up a localized string similar to Não existe um registo selecionado.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.grelha_sem_registos">
+<summary>
+  Looks up a localized string similar to Não existem registos para apresentar.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.guarda_estado">
+<summary>
+  Looks up a localized string similar to Guarda estado.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.idioma_existente">
+<summary>
+  Looks up a localized string similar to O idioma com código {0} já está definido para este tipo de documento..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.iva_regiao_existente">
+<summary>
+  Looks up a localized string similar to A Regiao {0} já está definida para este iva..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.janelaAutenticacao">
+<summary>
+  Looks up a localized string similar to AUTENTICAÇÃO.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.msg_opcoes_gravar_continuar">
+<summary>
+  Looks up a localized string similar to Atenção! Existem alterações pendentes. Pretende continuar e gravar as mesmas?.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.nao">
+<summary>
+  Looks up a localized string similar to Não.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.nao_existem_anexos">
+<summary>
+  Looks up a localized string similar to Não existem ficheiros selecionados/arrastados....
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.notificacao_grelha_add">
+<summary>
+  Looks up a localized string similar to Adicionado com sucesso..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.notificacao_grelha_rav">
+<summary>
+  Looks up a localized string similar to Atualizado com sucesso..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.notificacao_grelha_rem">
+<summary>
+  Looks up a localized string similar to Removido com sucesso..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.problemas_encontrados">
+<summary>
+  Looks up a localized string similar to Problemas.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.QuantidadeTotal">
+<summary>
+  Looks up a localized string similar to Quantidade Total.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.Remover_Linha">
+<summary>
+  Looks up a localized string similar to Remover esta linha?.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.removerLinha">
+<summary>
+  Looks up a localized string similar to Tem a certeza que deseja remover esta linha?.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.resultado_pesquisa">
+<summary>
+  Looks up a localized string similar to Resultados da Pesquisa.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.selecionar_listagem">
+<summary>
+  Looks up a localized string similar to Selecionar uma listagem.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.SelecionarLinhasTodas">
+<summary>
+  Looks up a localized string similar to Selecionar as linhas todas.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.selecione_um_item">
+<summary>
+  Looks up a localized string similar to Selecionar.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.sem_empresa">
+<summary>
+  Looks up a localized string similar to Sem empresa.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.serie_existente">
+<summary>
+  Looks up a localized string similar to A série com código {0} já está definida para este tipo de documento..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.sim">
+<summary>
+  Looks up a localized string similar to Sim.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.splitter_colapsar_direita">
+<summary>
+  Looks up a localized string similar to Clique para colapsar barra para a Direita.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.splitter_colapsar_esquerda">
+<summary>
+  Looks up a localized string similar to Clique para colapsar barra para a Esquerda.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.tem_que_selecionar_uma_linha">
+<summary>
+  Looks up a localized string similar to Tem que selecionar pelo menos 1 linha!.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.tem_que_ter_quantidade">
+<summary>
+  Looks up a localized string similar to Tem que ter no mínimo, uma linha com quantidade diferente de 0!.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.TempoTotal">
+<summary>
+  Looks up a localized string similar to Tempo Total.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.todos">
+<summary>
+  Looks up a localized string similar to Todos.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.ValidaNIF">
+<summary>
+  Looks up a localized string similar to O nº contribuinte indicado é inválido..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaCliente.ValidaSerie">
+<summary>
+  Looks up a localized string similar to O código da série do tipo de documento deve ser alfanumérico..
+</summary>
+</member>
+<member name="T:OticasTraducao.EstruturaServicos">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaServicos.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaServicos.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaServicos.Balcao">
+<summary>
+  Looks up a localized string similar to Balcão.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaServicos.Controlo">
+<summary>
+  Looks up a localized string similar to Controlo.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaServicos.Entrega">
+<summary>
+  Looks up a localized string similar to Entrega.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaServicos.ImportarReceita">
+<summary>
+  Looks up a localized string similar to Importar consulta.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaServicos.ImportarSubservico">
+<summary>
+  Looks up a localized string similar to Importar subserviço.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaServicos.Localizacao">
+<summary>
+  Looks up a localized string similar to Localização.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaServicos.Montagem">
+<summary>
+  Looks up a localized string similar to Montagem.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaServicos.PedidoAro">
+<summary>
+  Looks up a localized string similar to Pedido aro.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaServicos.PedidoLenteDireita">
+<summary>
+  Looks up a localized string similar to Pedido lente direita.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaServicos.PedidoLenteEsquerda">
+<summary>
+  Looks up a localized string similar to Pedido lente esquerda.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaServicos.RececaoAro">
+<summary>
+  Looks up a localized string similar to Receção aro.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaServicos.RececaoLenteDireita">
+<summary>
+  Looks up a localized string similar to Receção lente direita.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaServicos.RececaoLenteEsquerda">
+<summary>
+  Looks up a localized string similar to Receção lente esquerda.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaServicos.Subservico">
+<summary>
+  Looks up a localized string similar to Subserviço.
+</summary>
+</member>
+<member name="T:OticasTraducao.EstruturaDeErros">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.FK_tbCodigosPostais_IdConcelho">
+<summary>
+  Looks up a localized string similar to O concelho está associado a um ou mais códigos postais..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.FK_tbCodigosPostais_IdConcelho_deleted">
+<summary>
+  Looks up a localized string similar to O concelho está associado a um ou mais códigos postais..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.FK_tbConcelhos_IdDistrito">
+<summary>
+  Looks up a localized string similar to O distrito está associado a um ou mais concelhos..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.FK_tbConcelhos_IdDistrito_deleted">
+<summary>
+  Looks up a localized string similar to O distrito está associado a um ou mais concelhos..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.FK_tbMoedas_IDSistemaMoeda">
+<summary>
+  Looks up a localized string similar to A sigla está associada a uma ou mais Moedas..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.FK_tbMoedas_IDSistemaMoeda_deleted">
+<summary>
+  Looks up a localized string similar to A sigla está associada a uma ou mais Moedas..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.FK_tbPaises_IdSigla">
+<summary>
+  Looks up a localized string similar to A sigla está associada a um ou mais Paises.	.
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.FK_tbPaises_IdSigla_deleted">
+<summary>
+  Looks up a localized string similar to A sigla está associada a um ou mais Paises..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.FK_tbSeriesNumeracao_IDLoja">
+<summary>
+  Looks up a localized string similar to A loja está associada a uma ou mais séries de numeração..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.FK_tbSeriesNumeracao_IDLoja_deleted">
+<summary>
+  Looks up a localized string similar to A loja está associada a uma ou mais séries de numeração..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.IX_tbArmazens_Codigo">
+<summary>
+  Looks up a localized string similar to Já existe um armazém com este código..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.IX_tbArmazens_Localizacoes">
+<summary>
+  Looks up a localized string similar to Já existe uma localização com este código associada a este ou outro armazém..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.IX_tbArtigos_Codigo">
+<summary>
+  Looks up a localized string similar to Já existe um artigo com este código..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.IX_tbArtigos_CodigoBarras">
+<summary>
+  Looks up a localized string similar to Já existe um artigo com este código de barras..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.IX_tbClientes_Codigo">
+<summary>
+  Looks up a localized string similar to Já existe um cliente / outro devedor com este código..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.IX_tbCodigosPostais_Codigo">
+<summary>
+  Looks up a localized string similar to Já existe um código postal com este código..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.IX_tbConcelhos_Codigo">
+<summary>
+  Looks up a localized string similar to Já existe o concelho com este código para o distrito indicado..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.IX_tbCondicoesPagamento_Codigo">
+<summary>
+  Looks up a localized string similar to Já existe uma condição de pagamento com este código..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.IX_tbDistritos_Codigo">
+<summary>
+  Looks up a localized string similar to Já existe um distrito com este código..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.IX_tbEmpresas_Codigo">
+<summary>
+  Looks up a localized string similar to Já existe um grupo com este código..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.IX_tbEstados_Codigo">
+<summary>
+  Looks up a localized string similar to Já existe um estado com este código..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.IX_tbFamilias_Codigo">
+<summary>
+  Looks up a localized string similar to Já existe uma família com este código..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.IX_tbFormasExpedicao_Codigo">
+<summary>
+  Looks up a localized string similar to Já existe uma forma de expedição com este código..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.IX_tbFormasPagamento_Codigo">
+<summary>
+  Looks up a localized string similar to Já existe uma forma de pagamento com este código..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.IX_tbFornecedores_Codigo">
+<summary>
+  Looks up a localized string similar to Já existe um fornecedor / outro credor com este código..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.IX_tbGrupos_Codigo">
+<summary>
+  Looks up a localized string similar to Já existe um grupo com este código..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.IX_tbIdiomas_Codigo">
+<summary>
+  Looks up a localized string similar to Já existe um idioma com este código..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.IX_tbImpostoSelo_Codigo">
+<summary>
+  Looks up a localized string similar to Já existe um imposto de selo com este código..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.IX_tbIVA_Codigo">
+<summary>
+  Looks up a localized string similar to Já existe uma taxa de iva com este código..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.IX_tbLojas_Codigo">
+<summary>
+  Looks up a localized string similar to Já existe uma Loja com este código..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.IX_tbMarcas_Codigo">
+<summary>
+  Looks up a localized string similar to Já existe uma marca com este código..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.IX_tbMoedas_Codigo">
+<summary>
+  Looks up a localized string similar to Já existe uma Moeda com este código..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.IX_tbPaises_Codigo">
+<summary>
+  Looks up a localized string similar to Já existe um país com este código..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.IX_tbProfissoes_Codigo">
+<summary>
+  Looks up a localized string similar to Já existe uma profissão com este código..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.IX_tbSeriesNumeracao_Codigo">
+<summary>
+  Looks up a localized string similar to Já existe uma Série com este código..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.IX_tbSetoresAtividade_Codigo">
+<summary>
+  Looks up a localized string similar to Já existe um setor de atividade com este código..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.IX_tbTiposArtigos_Codigo">
+<summary>
+  Looks up a localized string similar to Já existe um tipo de artigo com este código..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.IX_tbTiposContatos_Codigo">
+<summary>
+  Looks up a localized string similar to Já existe um tipo de contato com este código..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.IX_tbTiposDocumento_Codigo">
+<summary>
+  Looks up a localized string similar to Já existe o tipo de documento com este código para o módulo / tipo indicado..
+</summary>
+</member>
+<member name="P:OticasTraducao.EstruturaDeErros.IX_tbTiposFornecimentos_Codigo">
+<summary>
+  Looks up a localized string similar to Já existe um tipo de fornecimento com este código..
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,198 @@
+@import "../base/config";
+
+.fm.k-sprite,
+.fm.k-sprite::before {
+    font-size: 14px!important;
+    line-height: 14px!important;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+}
+
+.k-overlay {
+    background-color: $white;
+}
+
+// este estilo teve de ser incluido por causa do update da kendo, confirmar a necessidade
+input.k-checkbox, .k-radio {
+    display: inline;
+    opacity: 1;
+    width: auto;
+    margin: auto;
+    position: static;
+}
+
+// NA GRELHA SPLITTER
+
+// icons dentro da splitbar
+.k-splitbar-horizontal .k-icon {
+    height: 14px;
+    width: 6px;
+}
+.k-splitbar-horizontal .k-collapse-prev, .k-splitbar-horizontal .k-expand-next,
+.k-splitbar-horizontal-hover>.k-collapse-prev, .k-splitbar-horizontal-hover>.k-expand-next{
+    background-position: -165px -226px;
+    margin-left: 4px!important;
+}
+.k-splitbar-horizontal .k-collapse-prev {
+    top: 30%;
+}
+.k-splitbar-horizontal .k-collapse-next, .k-splitbar-horizontal .k-expand-prev,
+.k-splitbar-horizontal-hover>.k-collapse-next, .k-splitbar-horizontal-hover>.k-expand-prev{
+    background-position: -165px -194px;
+    margin-left: 4px!important;
+}
+.k-splitbar-horizontal .k-expand-prev,
+.k-splitbar-horizontal-hover>.k-expand-prev{
+    margin-left: 27px!important;
+}
+.k-splitbar-horizontal .k-collapse-next {
+    top: 70%;
+}
+.k-splitbar.k-state-focused{
+    box-shadow: none;
+}
+
+.k-grid, .k-scheduler, .k-menu, .k-editor {
+    border-radius: 0;
+}
+.tableheader{
+    padding: 10px;
+    border-right: 1px solid $GrayCC;
+}
+.k-grid-header th.k-header {
+    font-size: $base-font-size - 2px; //12px
+}
+.F3MGrelhaForm input[type="radio"],
+.F3MGrelhaForm input[type="checkbox"],
+.F3MGrelha input[type="radio"],
+.F3MGrelha input[type="checkbox"] {
+    margin: 1px 0 0;
+}
+.F3MGrelhaForm .k-grid-header th.k-header,
+.F3MGrelha .k-grid-header th.k-header {
+    padding: 5px 10px 0 9px;
+}
+.F3MGrelhaForm .k-grid-header th.k-header, 
+.F3MGrelhaForm .k-filter-row th,
+.F3MGrelha .k-grid-header th.k-header, 
+.F3MGrelha .k-filter-row th  {
+    border-width: 0 0 0 1px;
+}
+.F3MGrelhaForm .k-grid-header th:first-child:first-child, 
+.F3MGrelhaForm .k-filter-row th:first-child,
+.F3MGrelha .k-grid-header th:first-child:first-child, 
+.F3MGrelha .k-filter-row th:first-child {
+    border-width: 0;
+}
+.F3MGrelhaForm .k-grid-header th.k-header .k-filter-row th,
+.F3MGrelha .k-grid-header th.k-header .k-filter-row th {
+    padding-top: 2px;
+}
+.F3MGrelhaForm .k-filter-row th .k-button-icon,
+.F3MGrelha .k-filter-row th .k-button-icon {
+    padding: .27em .27em .35em .27em;
+}
+.k-grid tr:hover {
+    background-color: $GrayE7;
+    cursor: pointer;
+}
+.k-grid-edit-row td {
+    //padding-bottom: 0;
+}
+.k-grid-edit-row td input.k-textbox {
+    height:2em;
+}
+.k-state-selected {
+    background-color: $main-color !important;
+}
+tr.k-alt.k-state-selected.k-grid-edit-row,
+tr.k-state-selected.k-grid-edit-row {
+    color: $black20 !important;
+    background-color: $white !important;
+}
+.k-grid .k-grid-header tr:hover {
+    background-color: $trans;
+    cursor: default;
+}
+.k-grid tr td {
+    border-width: 0 0 0 1px;
+}
+.k-grid td {
+    padding: .5em .6em;
+}
+.k-grid-content {
+    overflow-y: auto;
+}
+input.k-textbox, textarea.k-textbox, input.k-textbox:hover, textarea.k-textbox:hover, .k-textbox > input {
+    width: 100%
+}
+.k-textbox>input, .k-autocomplete .k-input, .k-picker-wrap .k-input, .k-numeric-wrap .k-input, .k-dropdown-wrap .k-input, .k-selectbox .k-input {
+    height: 1.93em;
+}
+span.k-datepicker, span.k-timepicker, span.k-datetimepicker, span.k-colorpicker, span.k-numerictextbox, span.k-combobox, span.k-dropdown, .k-toolbar .k-split-button {
+    width: 100%;
+}
+.k-block, .k-header, .k-grid-header, .k-toolbar, .k-grouping-header, .k-pager-wrap, .k-draghandle, .k-treemap-tile, html .km-pane-wrapper .k-header {
+    background-color: $GrayE7;
+}
+
+// kendo window
+.k-i-maximize {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QzJEQTYzMTE4MjIzMTFFNUI1NEU4RkRFRTFEOTdDOEIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QzJEQTYzMTI4MjIzMTFFNUI1NEU4RkRFRTFEOTdDOEIiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpDMkRBNjMwRjgyMjMxMUU1QjU0RThGREVFMUQ5N0M4QiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpDMkRBNjMxMDgyMjMxMUU1QjU0RThGREVFMUQ5N0M4QiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgIe/5cAAABPSURBVHjaYvz//z8DsYCJgQTA4uLicoGRkVGfCLUXmIhUCAIGJDmDAeiM/1jEsKojyWSsinfv3k150A0SxYzOzs5ExSAwDV1kJCUhAQQYAGhVFUAlUoveAAAAAElFTkSuQmCC);
+    margin-left: 2px!important;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+    .k-i-maximize {
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAcCAYAAAB/E6/TAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RUU3NkZFMzM4N0E4MTFFNUJEODFCMzI3MDA0MEQ1MUEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RUU3NkZFMzQ4N0E4MTFFNUJEODFCMzI3MDA0MEQ1MUEiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpFRTc2RkUzMTg3QTgxMUU1QkQ4MUIzMjcwMDQwRDUxQSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpFRTc2RkUzMjg3QTgxMUU1QkQ4MUIzMjcwMDQwRDUxQSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Puvrq2wAAACDSURBVHjaYvz//z8DPQATA50Ai6urqwPQV+sZGRkFaGEB0OwPQLMDWYDsDUAGP618AvIA0LL5oKDjp3WwAS1ToFscDT+LWGCMPXv2MNLCAhcXl//DM+hGLRq1aNSiUYtGLaJyffQR1G6A1Rs0agk9BPkoAMSgpSXAxkkC47BrqQIEGAAJlycDTV95BQAAAABJRU5ErkJggg==);
+    }
+}
+.k-i-close {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAoUlEQVQoU5WS4Q0CIQyFr4QBdAJ1E0IH8W4ycZASRjkn0AEINZCUIJGE41/b75X2ASwHDhxglwobY04hhE8vbvMFttauSqkHMzsi2kSAiA4A7imlzXvvICu11m8BRCCg5GOM59K5LzDzDgDXpsGTiNY6cy/owRz/uIGIueOlAXciukk807kuPZr51d1QBP/cKMsM3Wh8LuDQZylMv+Ds//gC5Od5rxbELAcAAAAASUVORK5CYII=);
+    margin-left: 2px!important;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+    .k-i-maximize {
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAcCAYAAABlL09dAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RDcyOUU3QUE4N0E4MTFFNUE5MkFEQTZEREZFMjg3QkQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RDcyOUU3QUI4N0E4MTFFNUE5MkFEQTZEREZFMjg3QkQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpENzI5RTdBODg3QTgxMUU1QTkyQURBNkRERkUyODdCRCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpENzI5RTdBOTg3QTgxMUU1QTkyQURBNkRERkUyODdCRCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pj/Kg0gAAAFbSURBVHja7JbLcYMwEIYtoABaSAVxBxEDnFNCSGUhHeTOMFIJTgVpwdx5ZH9Fim1ZErI9vlkzHo1h99OvfUiwZVk29xjJ5k7jAT4MO3mc87yu65dY/6qqOHxs5oliAm7TNP2hF7Isy481KNm0NAn4wNcZCryY51kwxtTqNDchOKBk86Ztc/gewxlkF0WRY1UDtbbV9n3/7oNatvtpmp6EEHulOMuyrQvqUu6DGuVg/SumB0jCF/1/DSS5NQsFbD5pdw2YmXk4jmND4ZDk+OxTvlJdCnqWPCkl4sPJ4PuKkj2BnjXINXAX1Nl5l8B9UG9LA07TLkbwRWdFqKRCpRgEx0LX4Mkt0BA8iYUiUfjFwlXn0eHBcUrFZD9iV0XXdTLRXYcKGGJKSresT/mgWX+hQHmRCm7DfXXqgQ9g6FI9xJjk747hoeJ3wBUUjODVhOvm1quJPT5YzPgVYADgEAWlMTX89AAAAABJRU5ErkJggg==);
+    }
+}
+.k-i-maximize,
+.k-i-close,
+.k-link:not(.k-state-disabled):hover>.k-i-maximize,
+.k-link:not(.k-state-disabled):hover>.k-i-close{
+    background-position: 0 0;
+}
+div.k-window-iframecontent {
+    padding: 5px 15px 5px 15px;
+}
+
+
+// lupa nos inputs nos formularios
+span.clsF3MLookup span.k-icon.k-i-arrow-s,
+span.clsF3MLookupReadonly span.k-icon.k-i-arrow-s {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAddJREFUOI2dzzFoE1EYB/D/9+7auyvEikgHtVpB01EwxEpAXwpBn5hGl1gk4iAiTs5upZujixSdaqUongpqXaRoHxQxSAaXVosEi2ZwUWyjd5jLfU6BvBpL9D89+L7/7/ER2pLKFfvtKCgxU4aJLQIiAIsee7Na+3V0iGg9RkYLBdEIZoipWh9wL7xZmDu7zY0uMlMt5OBeOnvyeCeAWmXEfKycPXgFk5PxxiUppR0icZMg7r7WT+aNYSpX7E/L/GNMTIiNRWMvdaknLceeSSld4wQ7CkoWaKrTz+2pVG41CDQdIFE0AGbKrA24LzYrt9LscZ6D6KgJEFtLvv+rG6Ay738HI2EABERKKacb4IA8tRWEdQMAsPg17M11AziITxBDG4DH3iyheVlKaW9WVko5ID7vYu2BAWjt14nFjYC2TP0NUUo530L7DjG90lqH7TMLAD6vrnzYtXs4jNB7fcee/cH25NCnL9VqI5MpJHbuS57+GVnXiOltTLg6uHd4ufZxZbkFULuWyuf77HWMx0RHiNFH4B8sWHtx/b7WOhzJ5sdj0LQglMovnz76A+gmh0fHzjQZtwX4XHlh7uE/AwBwSBaKTDwjCCXrf4Da6vulwaHkO0DUfgO3+a2lhEpMQgAAAABJRU5ErkJggg==);
+    background-repeat: no-repeat;
+    background-position: 0;
+    width: 16px;
+    height: 16px;
+    margin-top: -5px;
+}
+span.clsF3MLookupReadonly span.k-icon.k-i-arrow-s {
+  cursor: default;
+}
+span.clsF3MLookup span.k-icon.k-i-arrow-s {
+  cursor: pointer;
+}
+.k-combobox .k-select, .k-picker-wrap .k-select, .k-numeric-wrap .k-select {
+    border-width: 0 !important;
+}
+.k-autocomplete.k-state-default .k-input, .k-combobox .k-state-default .k-input, .k-picker-wrap.k-state-default .k-input, .k-numeric-wrap.k-state-default .k-input, .k-multiselect-wrap, .k-slider-track, .k-slider-selection, .k-progress-status-wrap {
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+// resolve a questao dos checkbox duplicados
+.k-checkbox-label {
+    display: none !important;
+}

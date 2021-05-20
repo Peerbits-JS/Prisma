@@ -1,0 +1,203 @@
+﻿@import "../../compass/css3";
+@import "../../compass/typography/text/ellipsis";
+@import "../base/config";
+
+// Area das tabs onde aparece o conteudo dos iframes
+
+.tab-conteudo-iframe{
+    /*height: 90%;*/
+    height: calc(100% - 70px);
+    padding: 10px;
+    background-color: $white;
+    border-color: $GrayDD;
+    border-width: 0 1px 1px;
+    border-style: solid;
+    overflow: hidden;
+}
+
+// settings para o iframe onde se carrega o conteudo
+iframe.F3MIframe {
+    width:100%;
+    height:100%;
+}
+body#iframeBody {
+    background:$white;
+    font-size: $base-font-size - 3px; //11
+    border: none;
+}
+
+// submenu de cada area
+.submenu {
+    padding: 10px 2px ;
+}
+
+.submenu .direito a{
+    padding: 2px 5px 0 5px;
+    margin: 2px 3px 0 0;
+    border-radius: 3px;
+    font-size: $base-font-size;
+}
+.titulos1 {
+  font-size: $base-font-size + 4px; //18
+  font-weight: bold; 
+}
+.submenu .direito a:last-of-type, .submenu .titulos1 {
+    margin-right: 8px;
+}
+
+.spriteLayout.home_color, .spriteLayout.favs_amarela {
+   background-color:$verde-claro;
+   color:$white;
+}
+.spriteLayout.home_cinza, .spriteLayout.favs_cinzenta {
+    color: $main-color;
+}
+
+.spriteAccoes.adicionar,  .spriteAccoes.alterar, .spriteAccoes.apagar, .spriteAccoes.refrescar, .spriteAccoes.guardar, .spriteAccoes.cancelar, .spriteAccoes.imprimir, .spriteAccoes.exportar, .spriteAccoes.adicionar2, .spriteAccoes.editar2, .spriteAccoes.apagar2, .spriteAccoes.refrescar2, .spriteAccoes.cancelar2, .spriteAccoes.imprimir2, .spriteAccoes.exportar2, .spriteAccoes.gravar2, .spriteAccoes.gravar_sair, .spriteAccoes.gravar_mais, .spriteAccoes.gravar_sair2, .spriteAccoes.gravar_mais2, .spriteAccoes.repor2, .spriteAccoes.gravar_manter2 {
+    color:$link-color;
+     :hover {
+        color:$link-hover-color;
+    }
+}
+
+.spr_icons_disabled, .spriteAccoes.adicionar_disabled, .spriteAccoes.alterar_disabled, .spriteAccoes.apagar_disabled, .spriteAccoes.refrescar_disabled, .spriteAccoes.gravar_disabled, .spriteAccoes.cancelar_disabled, .spriteAccoes.imprimir_disabled, .spriteAccoes.exportar_disabled, .spriteAccoes.gravar_sair2_disabled, .spriteAccoes.gravar_mais2_disabled, .spriteAccoes.gravar_manter_disabled, .spriteAccoes.repor2_disabled {
+    color: $GrayCC;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+.bts-modo-edita {
+    border-right: 1px solid $black60;
+    margin-top: -1px;
+    padding-right:12px;
+    .grelha-bts{
+        margin-top: 1px;
+    }
+}
+.grelha-bts{
+    float: left;
+    font-size: $base-font-size + 6px; //20
+    margin: -1px 0 0 12px;
+}
+.grelha-bts.invisivel, .grelha-bts.invisivel2 {
+    display: none;
+}
+
+// esta desactivada 16/10/2015
+.PesquisaHeader {
+  width: 350px;
+  visibility: hidden;
+}
+@media (max-width: 768px) {
+    .PesquisaHeader {
+        width: 200px;
+    }
+}
+.dropdown-headerPesquisa {
+  font-size: 1.2em;
+  padding: 0 !important;
+}
+.dropdown-headerPesquisa > span:first-child {
+  width: 84px;
+  border-left-width: 0;
+}
+
+.dropdown-headerPesquisa > span {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: left;
+  display: inline-block;
+  border-style: solid;
+  border-width: 0 0 2px 1px;
+  padding: .3em .6em;
+  width: 260px;
+  min-height: 26px;
+  font-weight: bold;
+}
+
+//combobox artigos em cima da grelha e ao lado do botao [+]
+.tableheader .mais{
+    margin-right: 7px;
+    font-size: $base-font-size;
+    padding: 4px 8px;
+    line-height: 11px;
+    vertical-align: middle;
+    border-radius: 3px;
+}
+.tableheader .mais:hover{
+    color: $white;
+    background-color: $main-color;
+}
+.tableheader .k-widget.k-combobox.k-header{
+      width: calc(100% - 46px);
+}
+
+.tableheader .k-select {
+    width:100%;
+    text-align: right;
+}
+
+// li dentro do dropdown ao lado do botao [+]
+.k-popup .k-list .k-item{
+    padding:4px !important;  
+}
+.k-popup .k-list .k-item.k-state-hover,
+.k-popup .k-list .k-state-focused,
+.k-popup .k-list .k-state-selected{
+    padding:3px !important;  
+}
+li.k-state-focused.k-state-hover{ // dropdown dos inputs, azuis e cinzas
+    color:#fff;
+}
+.cmbVistasTemplate {
+    left: 10px;
+    right: 10px;
+    position: absolute;
+}
+.cmbVistasTemplateright {
+    width: 100px;
+}
+.botoesVistas {
+    padding: 4px;
+    cursor: pointer;
+}
+.imgeditarfalse, .imgeditartrue, .imgcopiar, .imgapagarfalse, .imgapagartrue, .imgmarcar{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    opacity: .7;
+}
+.imgeditarfalse, .imgeditartrue {
+    background: image-url('editar.png') no-repeat top left;    
+}
+.imgeditarfalse:hover, .imgcopiar:hover, .imgapagarfalse:hover, .imgmarcar:hover {
+    opacity: 1;
+}
+.imgcopiar {
+    background: image-url('copiar.png') no-repeat top left;
+}
+.imgapagarfalse {
+    background: image-url('apagar.png') no-repeat top left;
+}
+.imgapagartrue {
+    background: image-url('apagar.png') no-repeat top left;
+}
+.imgmarcar {
+    background: image-url('visto.png') no-repeat top left;
+}
+.imgeditartrue, .imgeditartrue:hover, .imgapagartrue, .imgapagartrue:hover {
+    cursor: not-allowed !important;
+}
+
+
+
+// nome na vertical que aparece na pane do spliter
+div.textoVertDir, div.textoVertEsq {
+    @include transform(rotate(90deg));
+    @include transform-origin(left, top, 0);
+    padding: 0 0 0 13px;
+    color: $black60;
+    font-size: $base-font-size + 6px; //20px
+    margin-left: 30px;
+    cursor:pointer;
+}

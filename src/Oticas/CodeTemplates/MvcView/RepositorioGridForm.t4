@@ -1,0 +1,112 @@
+﻿<#@ template language="VB" HostSpecific="True" #>
+<#@ output extension="vb" #>
+<#@ include file="Imports.include.t4" #>
+<#
+	Dim controllerNome = ViewDataTypeShortName.Replace("tbIE", "").Replace("tbGN", "").Replace("tb", "")
+	
+	Dim camposTabToObj = String.Empty
+	Dim camposObjToTab = String.Empty
+	Dim campoAux = String.Empty
+	Dim campoTbAux = String.Empty
+	Dim primaryKeyName = ModelMetadata.PrimaryKeys(0).PropertyName
+
+	For Each modelProperty As PropertyMetadata In ModelMetadata.Properties
+		camposTabToObj += "." + modelProperty.PropertyName + " = e." + modelProperty.PropertyName + ", "
+		camposObjToTab += "." + modelProperty.PropertyName + " = o." + modelProperty.PropertyName + ", "
+
+		If (modelProperty.IsForeignKey) Then
+			campoAux = modelProperty.PropertyName.Replace("ID", "Descricao")
+			campoTbAux = modelProperty.PropertyName.Replace("ID", "tb") + "s"
+			camposTabToObj += "." + campoAux + " = e." + campoTbAux + ".Descricao, "
+		End If
+	Next
+
+	camposTabToObj = camposTabToObj.Remove(camposTabToObj.Length - 2)
+	camposObjToTab = camposObjToTab.Remove(camposObjToTab.Length - 2)
+
+	Dim bd = "Producao.BD.Dinamica.Aplicacao"
+	Dim acessoStr = "OpcoesAcesso.ALTERARISTO" + controllerNome
+#>
+Imports F3M.Modelos.Comunicacao
+Imports F3M.Modelos.Constantes
+Imports F3M.Modelos.Repositorio
+Imports F3M.Modelos.Utilitarios
+
+Namespace Repositorio
+    Public Class Repositorio<#= controllerNome #>
+        Inherits RepositorioGenerico(Of <#= bd #>, <#= ViewDataTypeShortName #>, <#= controllerNome #>)
+		
+#Region "Construtores"
+        Sub New()
+            MyBase.New(OpcoesAcesso.c<#= controllerNome #>)
+        End Sub
+#End Region
+
+#Region "LEITURA"
+        Protected Overrides Function ListaCamposTodos(query As IQueryable(Of <#= ViewDataTypeShortName #>)) As IQueryable(Of <#= controllerNome #>)
+            Return query.Select(Function(e) New <#= controllerNome #> With {
+                <#= camposTabToObj #>
+            })
+        End Function
+
+        Protected Overrides Function ListaCamposCombo(query As IQueryable(Of <#= ViewDataTypeShortName #>)) As IQueryable(Of <#= controllerNome #>)
+            Return query.Select(Function(e) New <#= controllerNome #> With {
+                .ID = e.<#= primaryKeyName #>, .Descricao = e.Descricao
+            })
+        End Function
+
+        ' LISTA
+        Public Overrides Function Lista(inFiltro As ClsF3MFiltro) As IQueryable(Of <#= controllerNome #>)
+            Return ListaCamposTodos(FiltraQuery(inFiltro))
+        End Function
+		
+        ' LISTA FILTRADO
+        Public Overrides Function ListaCombo(inFiltro As ClsF3MFiltro) As IQueryable(Of <#= controllerNome #>)
+            Return ListaCamposCombo(FiltraQuery(inFiltro))
+        End Function
+		
+        ' FILTRA LISTA
+        Protected Overrides Function FiltraQuery(inFiltro As ClsF3MFiltro) As IQueryable(Of <#= ViewDataTypeShortName #>)
+            Dim query As IQueryable(Of <#= ViewDataTypeShortName #>) = tabela.AsNoTracking
+            Dim filtroTxt As String = inFiltro.FiltroTexto
+            
+            ' --- GENERICO ---
+            ' COMBO
+            If Not ClsTexto.ENuloOuVazio(filtroTxt) Then
+                query = query.Where(Function(w) w.Descricao.Contains(filtroTxt))
+            End If
+
+            AplicaFiltrosEOrdenacoesDasVistas(inFiltro, query)
+
+            Return query
+        End Function
+#End Region
+
+#Region "ESCRITA"
+        ' ADICIONA POR OBJETO
+        Public Overrides Sub AdicionaObj(ByRef o As <#= controllerNome #>)
+            AcaoObjTransacao(o, AcoesFormulario.Adicionar)
+        End Sub
+
+        ' EDITA POR OBJETO
+        Public Overrides Sub EditaObj(ByRef o As <#= controllerNome #>)
+            AcaoObjTransacao(o, AcoesFormulario.Alterar)
+        End Sub
+		
+        ' REMOVER POR OBJETO
+        Public Overrides Sub RemoveObj(ByRef o As <#= controllerNome #>)
+            AcaoObjTransacao(o, AcoesFormulario.Remover)
+        End Sub
+		
+        Protected Overrides GravaLinhasTodas(ByRef inCtx As <#= bd #>, ByRef o As <#= controllerNome #>, 
+											e As <#= ViewDataTypeShortName #>, inAcao As AcoesFormulario)
+            If inAcao.Equals(AcoesFormulario.Adicionar) Or inAcao.Equals(AcoesFormulario.Alterar) Then
+                'GravaLinhas(Of EntidadeDasLinhas, ObjetoDasLinhas)(inCtx, e, o, Nothing)
+            ElseIf inAcao.Equals(AcoesFormulario.Remover) Then
+                'GravaLinhasEntidades(Of EntidadeDasLinhas)(inCtx, e.EntidadeDasLinhas.ToList, AcoesFormulario.Remover, Nothing)
+            End If
+        End Sub
+#End Region
+
+    End Class
+End Namespace

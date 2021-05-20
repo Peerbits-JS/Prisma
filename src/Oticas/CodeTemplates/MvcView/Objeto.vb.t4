@@ -1,0 +1,43 @@
+﻿<#@ template language="VB" HostSpecific="True" #>
+<#@ output extension="vb" #>
+<#@ include file="Imports.include.t4" #>
+<#
+	Dim controllerNome = ViewDataTypeShortName.Replace("tbIE", "").Replace("tbGN", "").Replace("tb", "")
+#>
+Imports System.Runtime.Serialization
+Imports F3M.Base
+
+Public Class <#= controllerNome #>
+    Inherits ClsF3MModelo
+<#
+	For Each modelProperty As PropertyMetadata In ModelMetadata.Properties
+		If (Not modelProperty.IsPrimaryKey _
+			AndAlso Not modelProperty.PropertyName.Equals("Sistema") _
+			AndAlso Not modelProperty.PropertyName.Equals("Ativo") _
+			AndAlso Not modelProperty.PropertyName.Equals("DataCriacao") _
+			AndAlso Not modelProperty.PropertyName.Equals("UtilizadorCriacao") _
+			AndAlso Not modelProperty.PropertyName.Equals("DataAlteracao") _
+			AndAlso Not modelProperty.PropertyName.Equals("UtilizadorAlteracao") _
+			AndAlso Not modelProperty.PropertyName.Equals("F3MMarcador") Then
+#>
+	<DataMember>
+<#
+			If (modelProperty.IsForeignKey) Then
+#>
+<#
+			End If
+#>
+	Public Property <#= modelProperty.PropertyName #> As <#= modelProperty.TypeName.Replace("System.", "") #>
+
+<#
+			If (modelProperty.IsForeignKey) Then
+#>
+	<DataMember>
+	Public Property <#= modelProperty.PropertyName.Replace("ID", "Descricao") #> As String
+
+<#
+			End If
+		End If
+	Next
+#>
+End Class

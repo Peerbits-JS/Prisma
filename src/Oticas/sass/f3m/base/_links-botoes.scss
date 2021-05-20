@@ -1,0 +1,44 @@
+@import "../../compass/css3";
+@import "config";
+
+// links 
+a {
+    color: $link-color;
+    &:hover, &:focus {
+        color: $link-hover-color;
+        text-decoration: none;
+        cursor: pointer;
+        outline: 0;
+    }
+    &:active{
+        outline:0;
+    }
+}
+
+// buttons 
+.main-btn{
+    color: $white;
+    background-color: $main-color;
+    &:hover{
+        background-color: darken($main-color, 25%);
+        color: $white;
+    }
+    &:active{
+        color: $white;
+        background-color: $main-color;
+    }
+    &:focus{
+        color: $white;
+        background-color: $main-color;
+    }
+}
+
+// links disableds
+.f3mlink.disabled, .f3mlink[disabled], fieldset[disabled] .f3mlink {
+    pointer-events: none;
+    cursor: not-allowed;
+    color: $GrayCC;
+    /*filter: alpha(opacity=65);
+    opacity: .65;*/
+    box-shadow: none;
+}

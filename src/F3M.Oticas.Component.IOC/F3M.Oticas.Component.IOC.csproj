@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.8.1" />
+    <PackageReference Include="F3M.Core.Application" Version="1.3.12" />
+    <PackageReference Include="F3M.Core.Application.Interfaces" Version="1.3.3" />
+    <PackageReference Include="KendoUICore" Version="2019.1.220" />
+    <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.2.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\F3M.Oticas.Application\F3M.Oticas.Application.csproj" />
+    <ProjectReference Include="..\F3M.Oticas.Data\F3M.Oticas.Data.csproj" />
+    <ProjectReference Include="..\F3M.Oticas.Interfaces\F3M.Oticas.Interfaces.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="F3M.Purchase.Documents.Services">
+      <HintPath>..\..\..\F3M.Core.Modules\src\BusinessDocuments\F3M.Purchase.Documents.Services\bin\Debug\netstandard2.0\F3M.Purchase.Documents.Services.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

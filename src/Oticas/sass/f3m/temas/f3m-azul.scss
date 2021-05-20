@@ -1,0 +1,34 @@
+
+$tema-azul-color1:              #0098d2;
+$tema-azul-color2:              #001b61;
+$tema-azul-branco:              #fff;
+$tema-azul-branco-trans:        rgba(#fff, 0.6);
+
+// overrides do para o tema azul
+$main-color:                    $tema-azul-color1;
+           
+$navbar-bg:                     $tema-azul-color1;
+$navbar-border-color:           #e7e7e7;
+$nav-brand-border-r:            $tema-azul-branco-trans;
+$navbar-link-color:             $tema-azul-branco;
+$navbar-link-bg:                $tema-azul-branco-trans;
+$navbar-badge-color:            $tema-azul-branco;
+$navbar-badge-bg:               #f2572e;
+$navbar-toggle-border-color:    $tema-azul-branco;
+$navbar-toggle-iconbar:         $tema-azul-branco;
+
+$menu-inicial-bg:               $tema-azul-color1;
+
+$footer-bg:                     $tema-azul-color1;
+$footer-txt-color:              $tema-azul-color2;
+$footer-link-color:             #D6D6D6;
+
+// settings do main theme
+@import "../f3m-base.scss";
+
+.navbar.navbar-default:before { // riscas cores F3m topo do site
+    background: none;
+}
+.form-control:focus {
+    box-shadow: none;
+}

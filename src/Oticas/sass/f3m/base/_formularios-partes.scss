@@ -1,0 +1,49 @@
+@import "../../compass/css3";
+@import "config";
+
+
+.FormularioPrincipal.semBotoesDireitos {
+    right: 0;
+}
+
+label {
+    font-weight: normal;
+}
+.label-link .fm {
+    font-size: $base-font-size;
+    position: relative;
+    top: 1px;
+}
+
+// focus dos inputs de bootstrap
+.form-control:focus {
+    border-color: lighten($main-color, 30%);
+    @include box-shadow(rgba($black, 0.075) 0 1px 1px inset, lighten($main-color, 30%) 0 0 8px);
+}
+
+.col-f3m.divCheckBox{
+    padding-top: 24px;
+    input {
+        float: left;
+        margin-right: 5px;
+        margin-top: .1em;
+    }
+}
+@media (max-width: 999px) {
+    .desContainer .col-f3m.divCheckBox {
+        padding-top: 23px;
+    }
+    /*.tab-pane .col-f3m.divCheckBox {
+        padding-top: 7px;
+    }*/
+}
+
+// quando nao ha registos seleccionados na lista
+.clsTextoSemRegistos {
+    display: block;
+    text-align: center;
+    top: 40%;
+    position: relative;
+    font-size: $base-font-size +1px; //15
+    font-style: italic;
+}

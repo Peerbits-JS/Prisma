@@ -1,0 +1,152 @@
+﻿<#@ template language="VB" HostSpecific="True" #>
+<#@ output extension=".vbhtml" #>
+<#@ include file="Imports.include.t4" #>
+<#
+	Dim vdTypeName = ViewDataTypeName.Replace("tbIE", "").Replace("tbGN", "").Replace("tb", "")
+	Dim vdTypeNameSingle = ViewDataTypeShortName.Remove(ViewDataTypeShortName.Length - 1).Replace("tbIE", "").Replace("tbGN", "").Replace("tb", "")
+#>
+@Imports F3M.Modelos.Autenticacao
+@Imports F3M.Modelos.Constantes
+@Imports F3M.Modelos.ConstantesKendo
+@Imports F3M.Modelos.Grelhas
+@ModelType <#= vdTypeName #>
+
+<#
+' "form-control" attribute is only supported for all EditorFor() in System.Web.Mvc 5.1.0.0 or later versions, except for checkbox, which uses a div in Bootstrap
+Dim boolType As New String("System.Boolean")
+Dim requiredMvcVersion As New Version("5.1.0.0")
+Dim isControlHtmlAttributesSupported = MvcVersion >= requiredMvcVersion
+' The following chained if-statement outputs the file header code and markup for a partial view, a view using a layout page, or a regular view.
+If (IsPartialView) Then
+#>
+<#
+    ElseIf (IsLayoutPageSelected) Then
+#>
+<#
+If (Not String.IsNullOrEmpty(LayoutPageFile))
+#>
+    Layout = "<#= LayoutPageFile#>"
+<#
+End If
+#>
+<#
+Else
+#>
+@Code
+    Layout = Nothing
+End Code
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title><#= ViewName #></title>
+</head>
+<body>
+<#
+    PushIndent("    ")
+End If
+#>
+<#
+If ReferenceScriptLibraries Then
+#>
+<#
+    If (Not IsLayoutPageSelected) AndAlso (IsBundleConfigPresent) Then
+#>
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/jqueryval")
+<#
+    ElseIf (Not IsLayoutPageSelected)
+#>
+<script src="~/Scripts/jquery-<#= JQueryVersion #>.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+<#
+    End If
+End If
+#>
+@Code
+    @Html.Partial(URLs.PartialTopo, Model)
+End Code
+<div class="@(ClassesCSS.FormPrincLDirComBt)">
+    <div class="FormularioAjudaScroll">
+        @If AcaoForm = AcoesFormulario.Consultar Then
+            @<div class="desContainer titulos1">@Model.Descricao</div>
+        End If
+        <div class="responsive-div clearfix">
+<#
+For Each modelProperty As PropertyMetadata in ModelMetadata.Properties
+    If (modelProperty.Scaffold) AndAlso (Not modelProperty.IsAssociation) Then
+        If (modelProperty.IsPrimaryKey) Then
+
+        ElseIf (Not modelProperty.IsReadOnly)
+			If (modelProperty.IsForeignKey) Then
+		#>
+			<div class="colf3m-resp">
+				@Code
+                    Html.F3M().DesenhaCampo(New ClsF3MCampo With {.Id = "<#= modelProperty.PropertyName #>",
+                        .TipoPai = tipoPai,
+                        .Label = Traducao.Estrutura<#= vdTypeName #>.<#= modelProperty.PropertyName.Replace("ID", "").ToUpper() #>,
+                        .TipoEditor = Mvc.Componentes.F3MLookup,
+                        .Controlador = "../COLOCAR_URL_CONTROLADOR",
+                        .Modelo = Model,
+                        .OpcaoMenuDescAbrev = OpcoesAcesso.c<#= modelProperty.PropertyName #>,
+                        .AcaoFormulario = AcaoForm})
+                End Code
+			</div>
+		<#
+			ElseIf Not modelProperty.PropertyName.Equals("Sistema") _
+				AndAlso Not modelProperty.PropertyName.Equals("Ativo") _
+				AndAlso Not modelProperty.PropertyName.Equals("DataCriacao") _
+				AndAlso Not modelProperty.PropertyName.Equals("UtilizadorCriacao") _
+				AndAlso Not modelProperty.PropertyName.Equals("DataAlteracao") _
+				AndAlso Not modelProperty.PropertyName.Equals("UtilizadorAlteracao") _
+				AndAlso Not modelProperty.PropertyName.Equals("F3MMarcador") Then
+		#>
+			<div class="colf3m-resp">
+				@Code
+                    Html.F3M().DesenhaCampo(New ClsF3MCampo With {.Id = "<#= modelProperty.PropertyName #>",
+                        .TipoPai = tipoPai,
+                        .Label = Traducao.EstruturaAplicacaoTermosBase.<#= modelProperty.PropertyName.Replace("ID", "").ToUpper() #>,
+                        .Modelo = Model,
+                        .AcaoFormulario = AcaoForm})
+                End Code
+			</div>
+		<#
+			End If
+        End If
+    End If
+Next
+#>
+		</div>
+    </div>
+</div>
+<#
+If (IsLayoutPageSelected) AndAlso (ReferenceScriptLibraries) AndAlso (IsBundleConfigPresent) Then
+#>
+
+@Section Scripts 
+    @Scripts.Render("~/bundles/jqueryval")
+End Section
+<#
+ElseIf (IsLayoutPageSelected AndAlso ReferenceScriptLibraries)
+#>
+<script src="~/Scripts/jquery-<#= JQueryVersion#>.min.js "></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+<#
+End If
+#>
+<#
+' The following code closes the tag used in the case of a view using a layout page and the body and html tags in the case of a regular view page
+#>
+<#
+If (Not IsPartialView) AndAlso (Not IsLayoutPageSelected) Then
+    ClearIndent()
+#>
+</body>
+</html>
+<#
+End If
+#>
+<#@ include file="ModelMetadataFunctions.vb.include.t4" #>

@@ -1,0 +1,1 @@
+﻿@Html.Partial("~/Areas/Clientes/Views/Clientes/2.0/Detalhe.vbhtml", Model)

@@ -1,0 +1,54 @@
+@import "../../compass/css3";
+@import "../base/config";
+
+body#main-login {
+    background: image-url('bg/bg_01.jpg') no-repeat center center fixed;
+    @include background-size(cover);
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+    font-family: $font-secundaria;
+    color: $azul-escuro;
+    background-color: $bg-color;
+}
+
+body#main-login-window, #janelaLogin {
+    background: none;
+    background-color: $bg-color;
+}
+.ecran-login {
+    width: 280px;
+    /*height: 390px;*/
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    margin: -215px 0 0 -160px; // estas margens são influenciadas pela altura e largura do elemento + o padding
+    padding: 20px;
+    border-radius: $base-border-radius;
+    /*background: rgba(255,255,255,.8);*/ // apenas para fundos escuros
+    h3 {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .form-group{
+        margin-bottom: 20px;
+    }
+    .k-checkbox-label {
+        display: inline-block!important;
+        padding-left: .5em;
+    }
+    a {
+        text-decoration: underline;
+    }
+}
+
+.user-pass {
+    margin-bottom:20px;
+    .k-textbox{
+        margin-bottom:5px;
+    }
+}
+
+.login-error ul{
+    list-style: none;
+    padding-left: 0;
+}

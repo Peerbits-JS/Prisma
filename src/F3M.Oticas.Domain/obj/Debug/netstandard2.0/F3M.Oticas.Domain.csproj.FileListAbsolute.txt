@@ -1,0 +1,17 @@
+D:\Projects\Peerbits\PRISMA\Prisma\src\F3M.Oticas.Domain\bin\Debug\netstandard2.0\F3M.Oticas.Domain.deps.json
+D:\Projects\Peerbits\PRISMA\Prisma\src\F3M.Oticas.Domain\bin\Debug\netstandard2.0\F3M.Oticas.Domain.dll
+D:\Projects\Peerbits\PRISMA\Prisma\src\F3M.Oticas.Domain\bin\Debug\netstandard2.0\F3M.Oticas.Domain.pdb
+D:\Projects\Peerbits\PRISMA\Prisma\src\F3M.Oticas.Domain\bin\Debug\netstandard2.0\F3M.Oticas.Component.Kendo.dll
+D:\Projects\Peerbits\PRISMA\Prisma\src\F3M.Oticas.Domain\bin\Debug\netstandard2.0\F3M.Oticas.Translate.dll
+D:\Projects\Peerbits\PRISMA\Prisma\src\F3M.Oticas.Domain\bin\Debug\netstandard2.0\Kendo.Mvc.dll
+D:\Projects\Peerbits\PRISMA\Prisma\src\F3M.Oticas.Domain\bin\Debug\netstandard2.0\F3M.Oticas.Component.Kendo.pdb
+D:\Projects\Peerbits\PRISMA\Prisma\src\F3M.Oticas.Domain\bin\Debug\netstandard2.0\F3M.Oticas.Translate.pdb
+D:\Projects\Peerbits\PRISMA\Prisma\src\F3M.Oticas.Domain\bin\Debug\netstandard2.0\en-GB\F3M.Oticas.Translate.resources.dll
+D:\Projects\Peerbits\PRISMA\Prisma\src\F3M.Oticas.Domain\bin\Debug\netstandard2.0\pt-PT\Kendo.Mvc.resources.dll
+D:\Projects\Peerbits\PRISMA\Prisma\src\F3M.Oticas.Domain\obj\Debug\netstandard2.0\F3M.Oticas.Domain.csprojAssemblyReference.cache
+D:\Projects\Peerbits\PRISMA\Prisma\src\F3M.Oticas.Domain\obj\Debug\netstandard2.0\F3M.Oticas.Domain.AssemblyInfoInputs.cache
+D:\Projects\Peerbits\PRISMA\Prisma\src\F3M.Oticas.Domain\obj\Debug\netstandard2.0\F3M.Oticas.Domain.AssemblyInfo.cs
+D:\Projects\Peerbits\PRISMA\Prisma\src\F3M.Oticas.Domain\obj\Debug\netstandard2.0\F3M.Oticas.Domain.csproj.CoreCompileInputs.cache
+D:\Projects\Peerbits\PRISMA\Prisma\src\F3M.Oticas.Domain\obj\Debug\netstandard2.0\F3M.Oticas.Domain.csproj.CopyComplete
+D:\Projects\Peerbits\PRISMA\Prisma\src\F3M.Oticas.Domain\obj\Debug\netstandard2.0\F3M.Oticas.Domain.dll
+D:\Projects\Peerbits\PRISMA\Prisma\src\F3M.Oticas.Domain\obj\Debug\netstandard2.0\F3M.Oticas.Domain.pdb

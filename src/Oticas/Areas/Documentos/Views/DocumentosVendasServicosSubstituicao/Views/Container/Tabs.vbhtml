@@ -1,0 +1,2 @@
+﻿<li role="presentation" class="nav-item"><a href="#tabHistorico" class="nav-link" role="tab" data-toggle="tab" aria-expanded="false">@Traducao.EstruturaClientes.Historico</a></li>
+<li role="presentation" class="nav-item"><a href="#tabArtigos" class="nav-link" role="tab" data-toggle="tab" aria-expanded="true">@Traducao.EstruturaTiposDocumento.Artigos</a></li>

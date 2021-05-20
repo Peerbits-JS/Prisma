@@ -1,0 +1,105 @@
+﻿@charset "UTF-8";
+
+// cores F3M
+$azul-escuro:           #001b61 !default;
+$azul-claro:            #0098d2 !default;
+$laranja-escuro:        #f2572e !default;
+$laranja-claro:         #ff9321 !default;
+$verde-escuro:          #5c5a2c !default;
+$verde-claro:           #ced33a !default;
+
+// escala de cinzas
+$black:                 #000 !default;
+$black20:               lighten($black, 20%) !default;      // #333333
+$black26:               lighten($black, 26.5%) !default;    // #444444
+$black33:               lighten($black, 33.5%) !default;    // #555555
+$black46:               lighten($black, 46.5%) !default;    // #777777
+$black60:               lighten($black, 60%) !default;      // #999999
+$black70:               lighten($black, 70%) !default;      //  #b3b3b3
+$black80:               lighten($black, 80%) !default;      // #cccccc
+$black85:               lighten($black, 85%) !default;      // #e0e0e0
+$black91:               lighten($black, 91%) !default;      // #e6e6e6;
+$black95:               lighten($black, 94%) !default;      // #f0f0f0
+$white:                 #fff 	!default;
+
+// cinzas directos
+$Gray77:      		    #777 	!default;
+$Gray44:                #444 	!default;
+$GrayCC:           		#ccc 	!default;
+$GrayDD:                #ddd 	!default;
+$GrayE7:           		#e7e7e7 !default;
+$GrayEB:           		#ebebeb !default;
+
+$trans:                 transparent !default;
+
+// Notificacoes + obrigatorio
+$error:                 #d92800 !default;
+$error-border:          lighten($error, 35%) !default;
+$error-bg:              lighten($error, 48%) !default;
+
+$success:               #3ea44e!default;
+$success-border:        lighten($success, 20%)!default;
+$success-bg:            lighten($success, 45%)!default;
+
+$info:                  #2498bc !default;
+$info-border:           lighten($info, 20%) !default;
+$info-bg:               lighten($info, 45%) !default;
+
+$warning:               #bf8412 !default;
+$warning-border:        lighten($warning, 30%) !default;
+$warning-bg:            lighten($warning, 45%) !default;
+
+//$mandatory:#648090 !default;$mandatory-border:lighten($mandatory, 30%) !default;$mandatory-bg:lighten($mandatory, 43%) !default;
+$mandatory:             #A07740 !default;
+$mandatory-border:      lighten($mandatory, 30%) !default;
+$mandatory-bg:          lighten($mandatory, 48%) !default;
+
+$texture:               none;
+
+// tipos de letra principais
+$font-principal:        'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Arial, Helvetica, sans-serif;
+$font-secundaria:       'Helvetica Neue', Helvetica, Arial, sans-serif;
+$base-font-size:        14px !default;
+
+// Border
+$base-border-radius:    3px !default;
+$rounded-border-radius: 50% !default;
+
+
+//  T E M A   B A S E  ////////////////////
+
+// cores
+$main-color:                    $azul-claro !default;
+$bg-color:                      $black95 !default;
+
+// Links cor + hover
+$link-color:                    $main-color;
+$link-hover-color:              darken($link-color, 25%);
+
+// Botao principal
+$btn-main-color:                $white !default;
+$btn-main-bg:                   $main-color !default;
+$btn-main-border:               darken($btn-main-bg, 5%) !default;
+
+//navbar
+$navbar-bg:                     $white !default;
+$navbar-border-color:           $GrayE7 !default;
+$nav-brand-border-r:            $GrayE7 !default;
+$navbar-link-color:             $Gray77 !default;
+$navbar-link-bg:                $GrayE7 !default;
+$navbar-badge-color:            $white !default;
+$navbar-badge-bg:               $laranja-escuro !default;
+$navbar-toggle-border-color:    $GrayDD !default;
+$navbar-toggle-iconbar:         $Gray77 !default;         
+
+
+//menu-inicial
+$menu-inicial-bg:               $white !default;
+
+//footer
+$footer-bg:                     $white !default;
+$footer-txt-color:              $black60 !default;
+$footer-link-color:             $azul-claro !default;
+
+
+

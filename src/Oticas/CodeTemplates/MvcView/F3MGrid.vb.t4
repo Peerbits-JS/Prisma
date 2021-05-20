@@ -1,0 +1,52 @@
+﻿<#@ template language="VB" HostSpecific="True" #>
+<#@ output extension=".vbhtml" #>
+<#@ include file="Imports.include.t4" #>
+<#
+	Dim controllerNome = ViewDataTypeShortName.Replace("tbIE", "").Replace("tbGN", "").Replace("tb", "")
+#>
+@Imports F3M.Modelos.Constantes
+@Imports F3M.Modelos.Grelhas
+@Code
+    Layout = URLs.SharedLayoutTabelas
+    Dim listaCol = New List(Of ClsF3MCampo)
+<#
+For Each modelProperty As PropertyMetadata in ModelMetadata.Properties
+    If (modelProperty.Scaffold) AndAlso (Not modelProperty.IsAssociation) Then
+        If (modelProperty.IsPrimaryKey) Then
+
+        ElseIf (Not modelProperty.IsReadOnly)
+			If (modelProperty.IsForeignKey) Then
+		#>
+
+	listaCol.Add(New ClsF3MCampo With {.Id = "<#= modelProperty.PropertyName #>",
+        .TipoEditor = Mvc.Componentes.F3MLookup,
+        .Controlador = "../COLOCAR_URL_CONTROLADOR",
+        .OpcaoMenuDescAbrev = OpcoesAcesso.COLOCAR_OPCAO_TEMACESSO,
+        .LarguraColuna = 300})
+		<#
+			ElseIf Not modelProperty.PropertyName.Equals("Sistema") _
+				AndAlso Not modelProperty.PropertyName.Equals("Ativo") _
+				AndAlso Not modelProperty.PropertyName.Equals("DataCriacao") _
+				AndAlso Not modelProperty.PropertyName.Equals("UtilizadorCriacao") _
+				AndAlso Not modelProperty.PropertyName.Equals("DataAlteracao") _
+				AndAlso Not modelProperty.PropertyName.Equals("UtilizadorAlteracao") _
+				AndAlso Not modelProperty.PropertyName.Equals("F3MMarcador") Then
+		#>
+
+	listaCol.Add(New ClsF3MCampo With {.Id = "<#= modelProperty.PropertyName #>",
+        .LarguraColuna = 150})
+		<#
+			End If
+        End If
+    End If
+Next
+#>
+
+    Dim gf As New ClsMvcKendoGrid With {
+        .Tipo = New <#= controllerNome#>().GetType,
+        .Campos = listaCol}
+
+    gf.GrelhaHTML = Html.F3M().Grelha(Of <#= controllerNome#>)(gf).ToHtmlString()
+End Code
+
+@Html.Partial(gf.PartialViewInterna, gf)

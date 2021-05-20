@@ -1,0 +1,12 @@
+D:\Projects\Peerbits\PRISMA\Prisma\src\F3M.Oticas.Component.Kendo\bin\Debug\netstandard2.0\F3M.Oticas.Component.Kendo.deps.json
+D:\Projects\Peerbits\PRISMA\Prisma\src\F3M.Oticas.Component.Kendo\bin\Debug\netstandard2.0\F3M.Oticas.Component.Kendo.dll
+D:\Projects\Peerbits\PRISMA\Prisma\src\F3M.Oticas.Component.Kendo\bin\Debug\netstandard2.0\F3M.Oticas.Component.Kendo.pdb
+D:\Projects\Peerbits\PRISMA\Prisma\src\F3M.Oticas.Component.Kendo\bin\Debug\netstandard2.0\Kendo.Mvc.dll
+D:\Projects\Peerbits\PRISMA\Prisma\src\F3M.Oticas.Component.Kendo\bin\Debug\netstandard2.0\pt-PT\Kendo.Mvc.resources.dll
+D:\Projects\Peerbits\PRISMA\Prisma\src\F3M.Oticas.Component.Kendo\obj\Debug\netstandard2.0\F3M.Oticas.Component.Kendo.csprojAssemblyReference.cache
+D:\Projects\Peerbits\PRISMA\Prisma\src\F3M.Oticas.Component.Kendo\obj\Debug\netstandard2.0\F3M.Oticas.Component.Kendo.AssemblyInfoInputs.cache
+D:\Projects\Peerbits\PRISMA\Prisma\src\F3M.Oticas.Component.Kendo\obj\Debug\netstandard2.0\F3M.Oticas.Component.Kendo.AssemblyInfo.cs
+D:\Projects\Peerbits\PRISMA\Prisma\src\F3M.Oticas.Component.Kendo\obj\Debug\netstandard2.0\F3M.Oticas.Component.Kendo.csproj.CoreCompileInputs.cache
+D:\Projects\Peerbits\PRISMA\Prisma\src\F3M.Oticas.Component.Kendo\obj\Debug\netstandard2.0\F3M.Oticas.Component.Kendo.csproj.CopyComplete
+D:\Projects\Peerbits\PRISMA\Prisma\src\F3M.Oticas.Component.Kendo\obj\Debug\netstandard2.0\F3M.Oticas.Component.Kendo.dll
+D:\Projects\Peerbits\PRISMA\Prisma\src\F3M.Oticas.Component.Kendo\obj\Debug\netstandard2.0\F3M.Oticas.Component.Kendo.pdb

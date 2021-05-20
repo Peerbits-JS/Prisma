@@ -1,0 +1,10 @@
+﻿<#@ template language="VB" HostSpecific="True" #>
+<#@ output extension=".vbhtml" #>
+<#@ include file="Imports.include.t4" #>
+<#
+	Dim controllerNome = ViewDataTypeShortName.Replace("tbIE", "").Replace("tbGN", "").Replace("tb", "")
+#>
+@ModelType F3M.Modelos.Grelhas.ClsMvcKendoGrid
+@Code
+    Html.F3M().GrelhaFormulario(Of <#= controllerNome#>)(Model).Render()
+End Code

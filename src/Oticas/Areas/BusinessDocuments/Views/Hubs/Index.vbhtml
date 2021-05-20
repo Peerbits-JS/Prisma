@@ -1,0 +1,1 @@
+﻿@Html.Partial("~/F3M.Core.Business.Documents/Views/Hubs/Index.cshtml")

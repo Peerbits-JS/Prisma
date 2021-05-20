@@ -1,0 +1,1 @@
+﻿@Html.Partial("~/F3M/Areas/TabelasAuxiliaresComum/Views/Entidades/Detalhe.vbhtml", Model)

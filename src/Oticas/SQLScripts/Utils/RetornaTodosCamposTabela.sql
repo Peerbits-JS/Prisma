@@ -1,0 +1,7 @@
+use f3m
+
+SELECT '.' + STUFF( (SELECT '.' + COLUMN_NAME + ' = f.' + COLUMN_NAME + ', '
+	FROM F3MSGP.INFORMATION_SCHEMA.COLUMNS
+	WHERE TABLE_NAME = N'tbArtigos'
+	FOR XML PATH('')), 
+	1, 1, '')

@@ -1,0 +1,97 @@
+@import "../../compass/css3";
+@import "../../compass/typography/text/ellipsis";
+@import "../base/config";
+
+// tabs principais
+.main-nav-tabs {
+    padding-right: 43px;
+}
+.nav > li > a.main-tabs {
+    padding: 8px 30px 4px 13px;
+    white-space: nowrap; 
+    max-width: 120px;
+    overflow: hidden;
+    @include ellipsis($no-wrap: true);
+}
+
+// TABDROP (http://www.eyecon.ro/bootstrap-tabdrop)
+.nav-tabs, .nav-pills {
+    position: relative;
+}
+.tabdrop .dropdown-toggle {
+    padding: 6px 12px;
+}
+.tab-close{
+    position: absolute;
+    right: 18px;
+    top: 74px;
+}
+.tab-close > a, 
+.tab-close > a:hover,
+.tab-close.open > a,
+.tab-close.open > a:hover,
+.tab-close.active > a,
+.tab-close.active > a:hover {
+    color: $black33;
+    cursor: default;
+    background-color: $white;
+    border: 1px solid $GrayDD;
+    border-bottom-color: $trans;
+    cursor:pointer;
+    border-radius: 4px 4px 0 0;
+    padding: 7px 12px 8px 12px;
+}
+
+.nav > li > a > .main-descricao,
+.tabdrop .main-descricao {
+    font-size: $base-font-size - 2px; //12
+    position: relative;
+    top: -1px;
+    padding: 0 10px 0 5px;
+}
+
+.nav-tabs > li > a.main-tabs-close,
+.tabdrop a.main-tabs-close {
+    float: right;
+    border: none;
+    background: none;
+    padding: 0 10px 0 0;
+}
+.nav-tabs > li > a.main-tabs-close {
+    margin-top: -25px;
+}
+.tabdrop a.main-tabs-close {
+    margin-top: -23px;
+}
+.nav-tabs > li > a.main-tabs-close:hover,
+.tabdrop a.main-tabs-close:hover {
+    color:$error;    
+    border: none;
+    cursor: pointer;
+    background: none;
+    padding: 0 10px 0 0;
+    opacity: 1;
+}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
+    background-color: $main-color;
+    color:$white;
+}
+
+// tab anima quando é carregada, só acontece quando o elemento tabdrop é activado
+.anima-flash a {
+    -webkit-animation-duration: .4s; 
+    animation-duration: .4s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both;
+    -webkit-animation-name: flash; 
+    animation-name: flash; 
+}
+@-webkit-keyframes flash { 
+    0%, 100% {opacity: 1;} 
+    25%, 75% {opacity: 0;} 
+} 
+@keyframes flash { 
+    0%, 50%, 100% {opacity: 1;} 
+    25%, 75% {opacity: 0;} 
+} 
+

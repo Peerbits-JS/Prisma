@@ -1,0 +1,30 @@
+@import "../base/config";
+
+// Grelhas dos perfis
+.combo-perfil {
+    margin-bottom:15px;
+}
+.grelhaperfis {
+    .k-grid-content{
+        overflow-y: scroll;
+    }
+    .k-button{
+        margin: 0 10px 0 0;
+        padding: 2px 8px 0px 8px;
+        background: none;
+        border-radius: $rounded-border-radius;
+        font-size: $base-font-size;
+    }
+    .k-header>input{
+        position: relative;
+        top: 5px;
+        margin-right: 5px;
+    }
+    .k-header>label{
+        position: relative;
+        top: 3px;
+    }
+    .k-header>.k-grid-filter{
+            margin: 0;
+    }
+}

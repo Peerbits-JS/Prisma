@@ -1,0 +1,175 @@
+@import "../base/config";
+
+// DETALHE
+.FormularioPrincipal {
+    left: 0;
+    bottom: 0;
+    top: 0;
+    /*right: 223px;*/ // mudar para esta quando tivermos decidido a area somatório no formulário 
+    right: 45px;
+    display: block;
+    position: absolute;
+    overflow: auto;
+}
+.FormularioAjudaScroll .nav-pills {
+    margin: 0 15px;
+}
+.FormularioAjudaScroll .nav-pills > li > a {
+    font-size: 10px;
+    font-weight: bold;
+    padding: 8px;
+}
+.FormularioAjudaScroll {
+    height: 100%;
+    /*min-width: 855px;*/
+    min-width: 1024px;
+}
+@media (max-width: 1024px) {
+    .FormularioAjudaScroll {
+        min-width: 814px;
+    }
+}
+
+.desContainer {
+    border-bottom: 1px dashed $black80; 
+    margin-bottom:20px;
+   .col-f3m {
+        border-right:1px dashed $black80;
+        padding-top:10px;
+        padding-bottom:10px;
+        &:last-child {
+            border-right:0;
+        }
+        &.divCheckBox{
+            padding-top: 36px;
+        }
+    }
+}
+input.textbox-titulo,
+input.k-input.textbox-titulo{
+    font-size: 1.249em;
+    font-weight: bold;
+}
+/*input.textbox-titulo{
+    padding: 0;
+    text-indent: 0;
+    font-size: 18px;
+    font-weight: bold;
+    height: 2em;
+    border-color: transparent;
+}
+.textbox-titulo.k-textbox:hover {
+    background-color: $trans;
+    border-color: $trans;
+    box-shadow: none;
+}
+.textbox-titulo.k-textbox:focus {
+    background-color: $trans;
+    border-color: $GrayE7;
+    box-shadow: none;
+}*/
+
+// tabs dentro do detalhe
+.nav-pills > li.active > a, 
+.nav-pills > li.active > a:hover, 
+.nav-pills > li.active > a:focus {
+    background-color: $main-color;
+}
+.tab-detalhe .tab-content{
+    padding: 10px 0;
+}
+.tab-detalhe .nav-pills{
+    border-bottom: 1px solid $main-color;
+}
+.tab-detalhe .nav-pills li.active a{
+    border-radius: 4px 4px 0 0;
+}
+.form-container .col-f3m {
+    min-height: 55px;
+}
+.form-container {
+    margin-bottom:2px;
+    &:last-child {
+        margin-bottom:20px;
+    }
+}
+
+.titulo-form{
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    padding-bottom:5px;
+}
+.submenu .titulo-form{
+    margin-top: 0;
+}
+
+.ColocarGrelha .submenu {
+    padding-top: 0;
+}
+
+fieldset.fsStyle {
+    border: 1px solid $GrayCC;
+    padding: 10px;
+    border-radius: 3px;
+}
+fieldset.fsStyle label{
+    margin-top:5px;
+}
+legend.legendStyle {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size:$base-font-size;
+    color: inherit;
+    margin-bottom: 0;
+    width: auto;
+    border-bottom: 0;
+}
+
+// Area de lado para info acessoria
+.lado-info {
+    top: 0;
+    right: 45px;
+    bottom: 0;
+    width: 170px;
+    display: block;
+    position: absolute;
+    overflow: hidden;
+    padding: 8px 8px 8px 0;
+    font-size:10px;
+}
+.lado-info-content{
+    height: calc(100% - 3px);
+    border: 1px solid $GrayCC;
+    border-radius: 3px;
+}
+.col-f3m-lado.info-total{
+    background-color:$GrayE7;
+}
+.col-f3m-sum {
+    padding:5px 0 8px 5px;
+    &:last-child{
+        padding: 5px 5px 5px 0;
+    }
+}
+
+// barra lado direito com botoes
+.FormularioBarraBotoes {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 45px;
+    display: block;
+    position: absolute;
+    background-color: $GrayE7;
+    overflow: hidden;
+    padding-top: 15px;
+}
+.FormularioBarraBotoes ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+    font-size: $base-font-size;
+}
+.FormularioBarraBotoes ul li {
+    padding: 0 10px 15px;
+}

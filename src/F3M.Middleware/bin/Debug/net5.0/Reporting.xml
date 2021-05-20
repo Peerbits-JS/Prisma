@@ -1,0 +1,335 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Reporting
+</name>
+</assembly>
+<members>
+<member name="T:Reporting.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Reporting.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Reporting.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:Reporting.BundleConfig.RegisterBundles(System.Web.Optimization.BundleCollection)">
+ <summary>
+ Registers the bundles.
+ For more information on bundling, visit http://go.microsoft.com/fwlink/?LinkId=301862    
+ </summary>
+ <param name="bundles">The bundles.</param>
+</member>
+<member name="M:Reporting.Auxiliares.clsFuncoes.ValorExtenso(System.Decimal,System.String,System.String)">
+ <summary>
+ Função que devolve a descrição em extenso do valor inserido.
+ </summary>
+ <param name="number"></param>
+ <param name="strMoeda"></param>
+ <param name="strMoedaCentimo"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Reporting.Auxiliares.clsFuncoes.getDecimal(System.Byte)">
+ <summary>
+ Função auxiliar - Parte decimal a converter
+ </summary>
+ <param name="number">Parte decimal a converter</param>
+</member>
+<member name="M:Reporting.Auxiliares.clsFuncoes.getInteger(System.Decimal)">
+ <summary>
+ Função auxiliar - Parte inteira a converter
+ </summary>
+ <param name="number">Parte inteira a converter</param>
+</member>
+<member name="M:Reporting.Auxiliares.clsFuncoes.ENullable(System.Type)">
+ <summary>
+ Verifica se TYPE é do tipo Nullable
+ </summary>
+ <param name="tipo"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Reporting.Auxiliares.clsFuncoes.RetornaTipoNullable(System.Type)">
+ <summary>
+ Retorna o tipo se TYPE é do tipo Nullable
+ </summary>
+ <param name="tipo"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Reporting.Auxiliares.clsFuncoes.ENumerico(System.Type)">
+ <summary>
+ Verifica se TYPE é do tipo Numerico
+ </summary>
+ <param name="tipo"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Reporting.Auxiliares.clsFuncoes.EData(System.Type)">
+ <summary>
+ Verifica se TYPE é do tipo Data
+ </summary>
+ <param name="tipo"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:Reporting.ReportDinamicoEmp">
+ <summary>
+ Summary description for XtraReport1
+ </summary>
+</member>
+<member name="F:Reporting.ReportDinamicoEmp.components">
+ <summary>
+ Required designer variable.
+ </summary>
+</member>
+<member name="M:Reporting.ReportDinamicoEmp.Dispose(System.Boolean)">
+ <summary> 
+ Clean up any resources being used.
+ </summary>
+ <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member>
+<member name="M:Reporting.ReportDinamicoEmp.InitializeComponent">
+ <summary>
+ Required method for Designer support - do not modify
+ the contents of this method with the code editor.
+ </summary>
+</member>
+<member name="T:Reporting.ReportDinamico">
+ <summary>
+ Summary description for XtraReport1
+ </summary>
+</member>
+<member name="F:Reporting.ReportDinamico.components">
+ <summary>
+ Required designer variable.
+ </summary>
+</member>
+<member name="M:Reporting.ReportDinamico.Dispose(System.Boolean)">
+ <summary> 
+ Clean up any resources being used.
+ </summary>
+ <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member>
+<member name="M:Reporting.ReportDinamico.InitializeComponent">
+ <summary>
+ Required method for Designer support - do not modify
+ the contents of this method with the code editor.
+ </summary>
+</member>
+<member name="M:Reporting.ReportsBaseController.Index(System.String,System.String)">
+ <summary>
+ Primeira view que carrega o report
+ </summary>
+ <param name="infiltro">recebe parametros</param>
+ <returns>retorna report</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Reporting.ReportsBaseController.MultiPrint(System.String)">
+ <summary>
+ Action result that print multiple and diferent reports
+ </summary>
+ <param name="infiltro"></param>
+ <returns></returns>
+</member>
+<member name="M:Reporting.ReportsBaseController.CarregaReport(System.String)">
+ <summary>
+ View que é chamada quando o modelo de dadosimpressao vem preenchido
+ </summary>
+ <param name="dadosImpressao">recebe parametros em modelo</param>
+ <returns>retorna report</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Reporting.ReportsBaseController.ReportMenuComboChange(System.String,System.String)">
+ <summary>
+ View que é chamada no change das vistas
+ </summary>
+ <param name="infiltro">recebe parametros</param>
+ <param name="reportname">recebe nome do report</param>
+ <returns>retorna report</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Reporting.ReportsBaseController.CarregarReport(System.String,System.String)">
+ <summary>
+ Carrega report do report definition
+ </summary>
+ <param name="infiltro">recebe parametros</param>
+ <param name="reportname">recebe nome do report</param>
+ <returns>retorn report</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Reporting.ReportsBaseController.CreateMultiReport(System.String,System.String)">
+ <summary>
+ Create report definition
+ </summary>
+ <param name="infiltro"></param>
+ <param name="reportname"></param>
+ <returns></returns>
+</member>
+<member name="M:Reporting.Controllers.ReportDesignerController.CarregaReport(System.String)">
+ <summary>
+ Action que chama a primeira vez para abrir o report predefinido e preenche a listaVistas e os parametros para a view e reportStorage
+ </summary>
+ <param name="dadosDesigner">Dados que estão presentes no report</param>
+ <returns></returns>
+</member>
+<member name="M:Reporting.Controllers.ReportDesignerController.ReportDesignerComboChange(System.String,System.String)">
+ <summary>
+ Action responsavel por fazer o get ao report quando mudado o checkBox
+ </summary>
+ <param name="inFiltro">Filtro de dados</param>
+ <param name="reportName">Nome do report</param>
+ <returns></returns>
+</member>
+<member name="M:Reporting.ReportTranslation.LoadResources(DevExpress.XtraReports.UI.XtraReport)">
+ <summary>
+ Processo de tradução de reports
+ </summary>
+ <param name="report">XtraReport</param>
+ <remarks></remarks>
+</member>
+<member name="M:Reporting.ReportTranslation.ReportXRTable(DevExpress.XtraReports.UI.XRTable,System.String)">
+ <summary>
+ Função de tradução para xrtables do report
+ </summary>
+ <param name="table"></param>
+ <param name="culture"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Reporting.ReportTranslation.ReportXRPanel(DevExpress.XtraReports.UI.XRPanel,System.String)">
+ <summary>
+ Função de tradução para xrpanel do report
+ </summary>
+ <param name="panel"></param>
+ <param name="culture"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Reporting.ReportTranslation.ReportXRChart(DevExpress.XtraReports.UI.XRChart,System.String)">
+ <summary>
+ Função de tradução para xrcharts do report
+ </summary>
+ <param name="chart"></param>
+ <param name="culture"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Reporting.ReportTranslation.GetResource(System.String,System.String)">
+ <summary>
+ Função para retornar a tradução de um elemento 
+ </summary>
+ <param name="name">codigo do resource</param>
+ <param name="culture">cultura ex: "pt-PT"</param>
+ <returns>retorna a tradução de um elemento</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Reporting.ReportTranslation.TrataResourceComKeysEspecificas(System.String,System.String,System.String)">
+ <summary>
+ Substitui Keys pelos valores especificos do projeto
+ </summary>
+ <param name="inTextoTratar"></param>
+ <param name="inIdioma"></param>
+ <returns></returns>
+</member>
+<member name="M:Reporting.ReportStorage.SetData(DevExpress.XtraReports.UI.XtraReport,System.String)">
+ <summary>
+ Controller do SAVE - DFS
+ </summary>
+ <param name="report">report designer</param>
+ <param name="url">nome do mapa</param>
+</member>
+<member name="M:Reporting.ReportStorage.SetNewData(DevExpress.XtraReports.UI.XtraReport,System.String)">
+ <summary>
+ Controller do SAVE AS - DFS
+ </summary>
+ <param name="report">report designer</param>
+ <param name="defaultUrl">nome do mapa </param>
+ <returns></returns>
+</member>
+<member name="M:Reporting.Repositorios.RepositorioAcessoDados.GravaReport(DevExpress.XtraReports.UI.XtraReport,System.String,System.String,System.String,System.Int64,System.Collections.Generic.Dictionary{System.String,System.String},System.String,System.String,System.String,System.String,System.String,System.String,System.Boolean)">
+ <summary>
+ Funcção que permite fazer o SAVE AS de um report em todas as empresas - DFS
+ </summary>
+ <param name="inReport">report designer</param>
+ <param name="inDescricaoMapa">nome do mapa</param>
+ <param name="inEntidade">entidade</param>
+ <param name="inBDEmpresa">BD empresa</param>
+ <param name="inIDVista">IDVista do Mapa</param>
+ <param name="inEmpresas">lista de empresas</param>
+ <param name="inServSQL">ServSQL</param>
+ <param name="inInstanciaSQL">InstanciaSQL</param>
+ <param name="inModoSAAS">ModoSAAS</param>
+ <param name="inCodigoClienteSAAS">CodigoClienteSAAS</param>
+ <param name="inBDGeral">BD Geral</param>
+ <param name="inCodigoEmpresa">Codigo da empresa</param>
+ <returns></returns>
+</member>
+<member name="M:Reporting.Repositorios.RepositorioAcessoDados.UpdateReport(DevExpress.XtraReports.UI.XtraReport,System.String,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String},System.String,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ Função que permite fazer o SAVE de um report designer em todas as empresas - DFS
+ </summary>
+ <param name="inReport">Report designer</param>
+ <param name="inEntidade">Entidade</param>
+ <param name="inBDEmpresa">BD EMpresa</param>
+ <param name="inEmpresas">lista de empresas</param>
+ <param name="inServSQL">ServSQL</param>
+ <param name="inInstanciaSQL">InstanciaSQL</param>
+ <param name="inModoSAAS">ModoSAAS</param>
+ <param name="inCodigoClienteSAAS">CodigoClienteSAAS</param>
+ <param name="inBDGeral">BDGeral</param>
+ <param name="inCodigoEmpresa">Codigo da empresa</param>
+ <returns></returns>
+</member>
+<member name="M:Reporting.Repositorios.RepositorioAcessoDados.GetEditMapaVistas(System.Int64,System.String)">
+ <summary>
+ Funçao que carrega o mapa quando o utilizado quer editar - DFS
+ </summary>
+ <param name="IDMapaVista">ID do mapa vista escolhido</param>
+ <param name="BDEmpresa">BD Empresa</param>
+ <returns></returns>
+</member>
+<member name="M:Reporting.Repositorios.RepositorioAcessoDados.ValidaNomeMapa(System.String,System.String,System.String)">
+ <summary>
+ Funão que valida se o nome do mapa ja existe na BD - DFS
+ </summary>
+ <param name="defaultUrls">nome do mapa</param>
+ <param name="entidade">entidade</param>
+ <param name="BDEmpresa">BD Empresa</param>
+ <returns></returns>
+</member>
+<member name="M:Reporting.Repositorios.RepositorioAcessoDados.ListaEmpresas(System.String)">
+ <summary>
+ Funçao que devolve uma liste de empresas
+ </summary>
+ <param name="BDGeral">BD Geral</param>
+ <returns></returns>
+</member>
+<member name="M:Reporting.Repositorios.RepositorioAcessoDados.GetPrefixBD(System.String,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ Função que devolver a base de dados de determinda empresa - DFS
+ </summary>
+ <param name="codigo">codigo lista de empresas</param>
+ <param name="ServidorSQL">ServidorSQL</param>
+ <param name="InstanciaSQL">InstanciaSQL</param>
+ <param name="ModoSAAS">ModoSAAS</param>
+ <param name="CodigoClienteSAAS">CodigoClienteSAAS</param>
+ <param name="inCodigoEmpresa">Codigo da empresa</param>
+ <returns></returns>
+</member>
+<member name="M:Reporting.Repositorios.RepositorioAcessoDados.EdtitXml(System.String)">
+ <summary>
+ função que retira a primeira linha do xml para que seja possivel gravar na BD - DFS
+ </summary>
+ <param name="mapaXml">mapa xml do report</param>
+ <returns></returns>
+</member>
+</members>
+</doc>

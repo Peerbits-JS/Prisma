@@ -1,0 +1,339 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects\\Peerbits\\PRISMA\\Prisma\\src\\F3M.Oticas.DTO\\F3M.Oticas.DTO.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\Peerbits\\PRISMA\\Prisma\\src\\F3M.Oticas.Component.Kendo\\F3M.Oticas.Component.Kendo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Peerbits\\PRISMA\\Prisma\\src\\F3M.Oticas.Component.Kendo\\F3M.Oticas.Component.Kendo.csproj",
+        "projectName": "F3M.Oticas.Component.Kendo",
+        "projectPath": "D:\\Projects\\Peerbits\\PRISMA\\Prisma\\src\\F3M.Oticas.Component.Kendo\\F3M.Oticas.Component.Kendo.csproj",
+        "packagesPath": "C:\\Users\\Saif Ansari\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Peerbits\\PRISMA\\Prisma\\src\\F3M.Oticas.Component.Kendo\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\Projects\\Peerbits\\PRISMA\\Prisma\\.nuget\\NuGet.Config",
+          "C:\\Users\\Saif Ansari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/F3M/_packaging/f3m-packages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "KendoUICore": {
+              "target": "Package",
+              "version": "[2019.1.220, )"
+            },
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\Peerbits\\PRISMA\\Prisma\\src\\F3M.Oticas.Domain\\F3M.Oticas.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Peerbits\\PRISMA\\Prisma\\src\\F3M.Oticas.Domain\\F3M.Oticas.Domain.csproj",
+        "projectName": "F3M.Oticas.Domain",
+        "projectPath": "D:\\Projects\\Peerbits\\PRISMA\\Prisma\\src\\F3M.Oticas.Domain\\F3M.Oticas.Domain.csproj",
+        "packagesPath": "C:\\Users\\Saif Ansari\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Peerbits\\PRISMA\\Prisma\\src\\F3M.Oticas.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\Projects\\Peerbits\\PRISMA\\Prisma\\.nuget\\NuGet.Config",
+          "C:\\Users\\Saif Ansari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/F3M/_packaging/f3m-packages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "D:\\Projects\\Peerbits\\PRISMA\\Prisma\\src\\F3M.Oticas.Component.Kendo\\F3M.Oticas.Component.Kendo.csproj": {
+                "projectPath": "D:\\Projects\\Peerbits\\PRISMA\\Prisma\\src\\F3M.Oticas.Component.Kendo\\F3M.Oticas.Component.Kendo.csproj"
+              },
+              "D:\\Projects\\Peerbits\\PRISMA\\Prisma\\src\\F3M.Oticas.Translate\\F3M.Oticas.Translate.csproj": {
+                "projectPath": "D:\\Projects\\Peerbits\\PRISMA\\Prisma\\src\\F3M.Oticas.Translate\\F3M.Oticas.Translate.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "F3M.Core.Application": {
+              "target": "Package",
+              "version": "[1.3.12, )"
+            },
+            "F3M.Core.Data": {
+              "target": "Package",
+              "version": "[1.4.4, )"
+            },
+            "F3M.Core.Domain": {
+              "target": "Package",
+              "version": "[2.0.12, )"
+            },
+            "KendoUICore": {
+              "target": "Package",
+              "version": "[2019.1.220, )"
+            },
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.ComponentModel": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\Peerbits\\PRISMA\\Prisma\\src\\F3M.Oticas.DTO\\F3M.Oticas.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Peerbits\\PRISMA\\Prisma\\src\\F3M.Oticas.DTO\\F3M.Oticas.DTO.csproj",
+        "projectName": "F3M.Oticas.DTO",
+        "projectPath": "D:\\Projects\\Peerbits\\PRISMA\\Prisma\\src\\F3M.Oticas.DTO\\F3M.Oticas.DTO.csproj",
+        "packagesPath": "C:\\Users\\Saif Ansari\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Peerbits\\PRISMA\\Prisma\\src\\F3M.Oticas.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\Projects\\Peerbits\\PRISMA\\Prisma\\.nuget\\NuGet.Config",
+          "C:\\Users\\Saif Ansari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/F3M/_packaging/f3m-packages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "D:\\Projects\\Peerbits\\PRISMA\\Prisma\\src\\F3M.Oticas.Domain\\F3M.Oticas.Domain.csproj": {
+                "projectPath": "D:\\Projects\\Peerbits\\PRISMA\\Prisma\\src\\F3M.Oticas.Domain\\F3M.Oticas.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "KendoUICore": {
+              "target": "Package",
+              "version": "[2019.1.220, )"
+            },
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\Peerbits\\PRISMA\\Prisma\\src\\F3M.Oticas.Translate\\F3M.Oticas.Translate.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Peerbits\\PRISMA\\Prisma\\src\\F3M.Oticas.Translate\\F3M.Oticas.Translate.csproj",
+        "projectName": "F3M.Oticas.Translate",
+        "projectPath": "D:\\Projects\\Peerbits\\PRISMA\\Prisma\\src\\F3M.Oticas.Translate\\F3M.Oticas.Translate.csproj",
+        "packagesPath": "C:\\Users\\Saif Ansari\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Peerbits\\PRISMA\\Prisma\\src\\F3M.Oticas.Translate\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\Projects\\Peerbits\\PRISMA\\Prisma\\.nuget\\NuGet.Config",
+          "C:\\Users\\Saif Ansari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/F3M/_packaging/f3m-packages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "KendoUICore": {
+              "target": "Package",
+              "version": "[2019.1.220, )"
+            },
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

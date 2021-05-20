@@ -1,0 +1,2 @@
+D:\Projects\Peerbits\PRISMA\Prisma\src\Oticas\obj\Debug\Oticas.vbprojAssemblyReference.cache
+D:\Projects\Peerbits\PRISMA\Prisma\src\Oticas\obj\Debug\Oticas.vbproj.CoreCompileInputs.cache

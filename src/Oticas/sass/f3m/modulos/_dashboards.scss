@@ -1,0 +1,71 @@
+@import "../base/config";
+
+// mini dashboard por cima do spplitter
+.micro-dashboard{
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: $GrayCC; 
+    font-family:$font-secundaria;
+    border-radius: 4px 4px 0 0;
+}
+.microdash-area {
+    border-right: 2px solid $GrayCC;
+    height: 120px;
+    padding:0 15px 15px;
+    &:last-child{
+        border-right:0;
+    }
+    .dasharea{
+        height:50px;
+        &:nth-child(n+2){
+            border-top:1px solid $GrayCC;
+        }
+    }
+    .subdash-area {
+        border-right:1px solid $GrayCC;
+        &:last-child{
+            border-right:0;
+        }
+        &.col-xs-6{
+            padding:0 3px;
+            p{
+                font-size: 9px;
+            }
+            &:last-child{
+                padding-right:0;
+            }
+        }
+    }
+    h3{
+        margin-top:10px;
+        margin-bottom:-3px;
+    }
+    h5{
+        margin-top:13px;
+        margin-bottom:5px;
+    }
+    h6{
+        margin-top:13px;
+        margin-bottom:5px;
+    }
+    p {
+        margin-top:2px;
+    }
+}
+
+.microdash-expand {
+    padding-top: 2px;
+    border-radius: 50%;
+    background: $GrayCC;
+    text-align: center;
+    height: 27px;
+    position: absolute;
+    width: 32px;
+    left: 50%;
+    margin-left: -17px;
+    margin-top: -14px;
+    color: $black20;
+    &:hover{
+        background: $black85;
+    }
+}

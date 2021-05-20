@@ -1,0 +1,47 @@
+@import "../base/config";
+
+// windows
+.f3m-window .submenu .titulo-form{
+    margin: 0;
+    line-height: 28px;
+    padding: 0;
+    font-size: $base-font-size;
+}
+.f3m-window .submenu a{
+   line-height:29px;
+}
+.f3m-window .submenu .direito a:last-of-type {
+    margin: 2px 3px 0 0;
+}
+.f3m-window .window-drop{
+    margin-bottom:20px;
+}
+
+// window notificacao que aparece no centro do evcran
+.win-notifica {
+    height: 179px;
+    .icon-msg{
+        font-size:85px;
+        line-height: 179px;
+    }
+    .f3icon-question-circle{color:$info}
+    .f3icon-times-circle{color:$error}
+    .f3icon-info-circle{color:$info}
+    .f3icon-exclamation-circle{color:$warning}
+    .notifica-msg {
+        display: table;
+        height: 179px;
+        p {
+            display: table-cell;
+            vertical-align: middle;
+            font-size: $base-font-size;
+        }
+    }
+    .notifica-footer {
+        padding:10px;
+        border-top:1px solid $GrayCC;
+        .btn{
+            margin-left:8px;
+        }
+    }
+}

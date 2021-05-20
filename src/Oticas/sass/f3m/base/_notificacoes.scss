@@ -1,0 +1,88 @@
+@import "../../compass/css3";
+@import "config";
+
+// Alertas
+.alerts {
+    padding: 25px;
+    min-width: 300px;
+    font-size: 14px;
+    .fm {
+        float: left;
+        margin: -10px 16px 0 0;
+        font-size: $base-font-size + 22px; //36px
+    }
+    p {
+        margin: 0;
+    }
+}
+
+// caixa de erros do formulário
+.window-error .k-window-title {
+    left: .90em;
+    cursor: move;
+}
+.window-error ul {
+    padding-left: .70em;
+    list-style-type: none;
+}
+.window-error ul li {
+    font-size: $base-font-size - 2px;
+    padding-top:10px;
+}
+.window-error ul li:before {
+    font-family: f3icon;
+	content: "\e61b";
+	float: left;
+	width: 1.5em;
+    margin-top: 1px;
+    color: $link-color;
+}
+.k-window.window-error,
+.k-window.k-state-focused.window-error{
+     @include box-shadow(rgba($black, 0.3) 0 0 12px);
+}
+
+// Notificações
+.k-widget.k-notification.k-notification-info {
+    background-color: $info-bg!important;
+    border-color: $info-border!important;
+    color: $info!important;
+}
+.k-widget.k-notification.k-notification-success {
+    background-color: $success-bg!important;
+    border-color: $success-border!important;
+    color: $success!important;
+}
+.k-widget.k-notification.k-notification-warning {
+    background-color: $warning-bg!important;
+    border-color: $warning-border!important;
+    color: $warning!important;
+}
+.k-widget.k-notification.k-notification-error,
+.window-error,
+.window-error .k-window-titlebar.k-header,
+.input-error,
+.textbox-titulo.input-error,
+.textbox-titulo.input-error:hover,
+.textbox-titulo.input-error:focus{ 
+    background-color: $error-bg!important;
+    border-color: $error-border!important;
+    color: $error!important;
+}
+
+// obrigatórios
+.obrigatorio,
+.textbox-titulo.obrigatorio,
+.textbox-titulo.obrigatorio:hover,
+.textbox-titulo.obrigatorio:focus {
+    background-color: $mandatory-bg!important;
+    color: $mandatory!important;
+}
+.k-combobox.obrigatorio .k-dropdown-wrap span.k-select {
+    background-color: $mandatory-bg!important;
+    border-color: $trans;
+}
+.k-combobox.input-error .k-dropdown-wrap span.k-select {
+    background-color: $error-bg !important;
+    border-color: $trans;
+}

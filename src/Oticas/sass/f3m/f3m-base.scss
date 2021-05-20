@@ -1,0 +1,25 @@
+﻿@charset "UTF-8";
+
+// 1.Base
+@import "../compass/css3";
+@import "base/_config.scss";
+@import "base/_boxmodel-reset-kendo.scss";
+@import "base/_body-base.scss";
+@import "base/_links-botoes.scss";
+@import "base/_formularios-partes.scss";
+@import "base/_notificacoes.scss";
+
+// 2.tema base da kendo, retirado do site da telerik !! neste momento os url de imagens são do CDN, se mudar rever!!
+@import "temas/Kendo-bst-theme.scss";
+
+// 3.modulos que compoem as areas
+@import "modulos/_login.scss";
+@import "modulos/_navbar.scss";
+@import "modulos/_nav-lateral.scss";
+@import "modulos/_tabs-principais.scss";
+@import "modulos/_area-trabalho.scss";
+@import "modulos/_formularios.scss";
+@import "modulos/_grelha-perfis.scss";
+@import "modulos/_dashboards.scss";
+@import "modulos/_windows.scss";
+@import "modulos/_kendo-overrides.scss";
